@@ -1,0 +1,682 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2025/17"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2025/17"/>
+	  <FRBRdate date="2025-04-30" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="17"/>
+	  <FRBRname value="R v Perry"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2025/17"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2025/17"/>
+	  <FRBRdate date="2025-04-30" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2025/17/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2025/17/data.xml"/>
+	  <FRBRdate date="2025-04-30T09:22:12" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-30" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="r" href="" showAs="R"/>
+	<TLCPerson eId="perry" href="" showAs="Perry"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-reed-president" href="/judge-lord-reed-president" showAs="Lord Reed, President"/>
+	<TLCPerson eId="judge-lord-hodge-deputy-president" href="/judge-lord-hodge-deputy-president" showAs="Lord Hodge, Deputy President"/>
+	<TLCPerson eId="judge-lord-lloyd-jones" href="/judge-lord-lloyd-jones" showAs="Lord Lloyd-Jones"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>17</uk:number>
+	<uk:cite>[2025] UKSC 17</uk:cite>
+	<uk:parser>0.26.20</uk:parser>
+	<uk:hash>4f16ebf661427027b9f1d27ac8e82bfb7521007360c0b0520d01e80c716b7f67</uk:hash>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaHeading1 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.87in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading2 { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading3 { text-align: justify; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading4 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading5 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading6 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .ParaSubHeading1 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .fontstyle01 { font-style: normal; font-weight: normal; font-family: TimesNewRomanPSMT; font-size: 12pt; color: #000000; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Easter Term</span><br/><neutralCitation style="font-weight:bold">[2025] UKSC 17</neutralCitation><br/><span style="font-style:italic">On appeal from: [2023] NICA 74</span></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentJudges"><party refersTo="#r" as="#respondent" style="font-size:20pt">R</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondent</role><span style="font-size:20pt">) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"> </span><party refersTo="#perry" as="#appellant" style="font-size:20pt">Perry</party><span style="font-size:20pt"> (</span><role refersTo="#appellant" style="font-size:20pt">Appellant</role><span style="font-size:20pt">)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-reed-president">Lord Reed, President</judge><br/><judge refersTo="#judge-lord-hodge-deputy-president">Lord Hodge, Deputy President</judge><br/><judge refersTo="#judge-lord-lloyd-jones">Lord Lloyd-Jones</judge><br/><judge refersTo="#judge-lord-hamblen">Lord Hamblen</judge><br/><judge refersTo="#judge-lord-leggatt">Lord Leggatt</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2025-04-30" refersTo="#judgment">30 April 2025</docDate><br/><br/>Heard on 24 March 2025</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Dessie Hutton KC<br/>Aoife Macauley<br/>(Instructed by Phoenix Law (Belfast))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Samuel Magee KC<br/>Robin Steer KC<br/>(Instructed by Public Prosecution Service (Northern Ireland)</p>
+	    <p class="NewSpeech">lord Hamblen <span style="text-transform:none">(with whom Lord Reed, Lord Hodge, Lord Lloyd-Jones and Lord Leggatt agree):</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In Crown Court cases in Northern Ireland a defence statement is required to be provided in effectively every case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The purpose of a defence statement is to set out the nature of the accused&#8217;s defence, the matters of fact on which he takes issue with the prosecution and why he does so, the matters of fact on which he intends to rely for the purposes of his defence, and any point of law (including as to admissibility of evidence) which he wishes to take (see section 6A of the Criminal Procedure and Investigations Act 1996 (the &#8220;CPIA&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The question of law certified for appeal is whether the construction of a defence statement is a question of law for the trial judge.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Paraheading2">Factual background</p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The certified question arises in relation to an appeal by the appellant, Ms Perry, against her conviction for <span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt;color:initial">collecting or making a record of information likely to be useful to a terrorist, contrary to section 58(1)(a) of the Terrorism Act 2000.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt;color:initial">The information was</span><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt"> contained in notes handwritten on cigarette papers which were found in a perfume box on a bookshelf close to the computer workstation in the appellant&#8217;s house during a police search on 20 February 2018 (&#8220;the notes&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The notes were written in code and discussed activities with persons who were ciphered with the use of initials rather than names. The prosecution case was that the coded notes related to a previous police search operation in 2015 which had resulted in an arrest and prosecution of Kevin Nolan for possession of firearms, ammunition and explosives. Nolan had been sentenced in 2017. The prosecution contended that the interpretation of the code contained within the notes and the sequence of events described represented a debriefing exercise conducted by dissident republicans in respect of that seizure of weapons and explosives. This was designed to provide practical assistance to a person committing or preparing acts of terrorism in the future by providing information as to where the munitions and explosives had been recovered from, the fact that there had allegedly been MI5 surveillance at a specified location, and the making of decisions as to where to store munitions or explosives in the future and who could or could not be trusted to store such material.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The appellant did not dispute that the notes were in her handwriting and that they related to a debriefing exercise as alleged by the prosecution. Her evidence at trial was that the notes related to papers which were put through her letterbox anonymously some time shortly before Christmas 2017. She wrote on issues relating to policing and to approaches made by MI5 to people and on occasions she would receive materials anonymously in relation to such issues. She considered that the papers were sent to her in connection with this work. She reviewed the papers but, apart from a section that detailed approaches by &#8220;Big Eyes&#8221; (which she took to mean MI5) approaching a ciphered individual both in an airport and when he returned home, she could not make much sense of them. She did not know who the ciphered persons in the papers were. She stated that at the time she received the papers she had concluded that they were sent to her as their utility was spent, but she could not recall now why she had formed that opinion. Her evidence was that she believed that she had the papers in connection with her lawful writings and did not have reason to suspect that the papers (written in code) would be of use to anyone at the time that she received them. In seeking to maintain the confidential nature of the information and the source of the information she copied the papers provided in her own hand and retained her copy. The original papers were then disposed of.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Her case was that she did not &#8220;collect&#8221; the information in the notes; any such information had been collected by the author(s) of the papers provided to her. Further, the copying of the papers was not the &#8220;making of a record&#8221;; it was the copying of a record already made. In all the circumstances, she had a reasonable excuse for having the notes and the information contained in them in her possession.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Paraheading2">The proceedings</p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In her defence statement the appellant described herself as a writer, commentator, journalist, political campaigner and activist. She had also been a member of Saoradh, an Irish Republican political party.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In relation to her receipt of the papers and making of the notes, para 4 of the defence statement stated as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(l)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The information the subject of these proceedings came to the Defendant in this fashion via an anonymous third party or parties. The information contained in the notes were dropped through the Defendant&#8217;s letterbox anonymously one night, some time after the Kevin Nolan described in the Crown&#8217;s papers had been sentenced. The Defendant believes that these notes were forwarded to her due to their having recorded approaches to individuals referred to in the notes from &#8216;Big Eyes&#8217;, which she takes to mean MI5.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(m)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The notes received by the Defendant were written in the hand of the author or authors of those notes. Insofar as any information in the notes had been &#8216;collected&#8217; it had been collected by the author or authors of those notes. The Defendant did not therefore &#8216;collect&#8217; any information in the notes. She was not, as was a constant suggestion put to her during interview, a member of a security team operating on behalf of the New IRA.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(n)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">These original notes were forwarded to the Defendant some considerable time after the events giving rise to Kevin Nolan&#8217;s conviction and were forwarded after Kevin Nolan was sentenced. Any currency in the information contained in the notes was considered by the Defendant to have long since dissipated. The Defendant did not think that the information in the notes, at the time at which she received them, would be of any future use to anyone in any sinister way. Any &#8216;usefulness&#8217; or utility that the information might once have had (which utility is not accepted) had been spent. She believes that this was partly why the notes were considered suitable for sending to her at that time.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(o)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Defendant considered that the manner of the delivery of the notes and the anonymous nature of same indicated that the materials were forwarded in a confidential manner in furtherance of her political and journalistic activities. In seeking to maintain the confidential nature of the information and the source of the information she copied the notes provided in her own hand and retained her copy. The original notes were then disposed of. The Defendant considers that the copying of the notes in this fashion is not the &#8216;making of a record&#8217; within the meaning<span style="font-style:italic"> </span>of Section 58 of the Terrorism Act 2000. It is the copying of a record already made.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The trial was a non-jury trial, a certificate having been issued under section 1 of the Justice and Security (Northern Ireland) Act 2007. The trial commenced on 30 January 2023 before O&#8217;Hara J.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant&#8217;s defence as set out in her defence statement was referred to in evidence and the investigating officer was asked by defence counsel specifically whether the prosecution would be calling any direct evidence to counter her case that she received the notes anonymously in the manner outlined in the defence statement. The investigating officer replied that there was no direct evidence to say that this was not true. It is common ground that the defence statement and its factual contents were thereby put in evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant gave evidence at trial as outlined in para 7 above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">During the course of her evidence, the judge questioned the appellant about what he considered to be an apparent inconsistency between her oral evidence and para 4(n) of the defence statement, as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">&#8220;MR JUSTICE O&#8217;HARA: Miss Perry, can I ask you something? Mr Hutton referred earlier in the case to your defence statement, which is a summary of the case that you&#8217;re going to make in this court. And it&#8217;s from this defence statement that we know that the notes are written in your hand because they've been collected by somebody else, and therefore the proposition is put that you did not, yourself, collect any information at all, OK?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: That&#8217;s correct.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: You - you copied out information that somebody else had provided, OK?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: That&#8217;s correct, my Lord.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: But the next paragraph, paragraph N in the defence statement says: these original notes were forwarded to you some considerable after the arms find which gave rise to Kevin Nolan&#8217;s conviction and were forwarded after Kevin Nolan had been sentenced. Right? The next sentence says: Any currency in the information contain in the notes was considered by you to have long since dissipated, in other words, to have long since disappeared?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: That&#8217;s correct.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: Right, OK. But you've told Mr Steer in cross-examination you don&#8217;t - you don&#8217;t know who Nolan was.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: I didn&#8217;t know who Nolan was.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: Yeah, so how...</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: But when I was writing those notes, I just got the impression it was something that had happened.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: Yeah.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: Something that, as - as the detective said, that had been done with.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: OK. Let me - let me - let me put my translation on this sentence. It&#8217;s - when it says any currency in the information contained in the notes was considered by you to have long since passed. That suggests to me, on reading it, in plain English that you did know that the notes had something to do with Kevin Nolan&#8217;s conviction and sentence, and the arms find. Do you agree with that or not?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: I don&#8217;t agree with that, my Lord, no.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: Well then what - well, then, would you please explain what is meant in your own defence statement by the words &#8216;any currency in the information was&#8217; - was - sorry, any currency in the information contained in the notes was considered by you to have long since dissipated or passed?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: Yeah, I just got the impression by reading them that I was given something that had been done and done - dusted, and I was to garner something out of it - I don&#8217;t know what, but...</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: Well, what - what - what gave you that impression?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: Well, I can&#8217;t remember them all now, but I just remember as I read through them, I thought I had been given something that was used, obsolete. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: It was obsolete?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: Of no use to anyone. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: So...</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: Not even myself. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: Right. So, the notes, most of the notes meant nothing to you. You - you&#8217;ve used words like &#8216;useless, nonsense and meaningless&#8217;?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: Yeah. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: But there&#8217;s a few bits that might mean something, but you considered them to be obsolete?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">WITNESS: Yes, something that... </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:13pt;color:#000000">MR JUSTICE O&#8217;HARA: Right.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-indent:0.5in"><span style="font-size:14pt">WITNESS: ... had been...&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 15 March 2023 the judge provided a written judgment setting out his reasons for convicting the appellant &#8211; <span style="font-style:italic">R v Perry</span> [2023] NICC 7.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The judge concluded that he did not believe the appellant&#8217;s evidence in relation to the notes. At para 43 he stated as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[43] For a number of reasons I do not believe the defendant&#8217;s account. I do not believe that it might even possibly be a truthful account. In my judgment it is directly contradicted by all of the evidence including the following:</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In her defence statement at para (n) cited above, she stated she believed that any relevance or currency in the information contained in the notes had long since dissipated. The obvious meaning of that portion of the defence statement is that she knew well that the notes related to the arms find in 2015 and the conviction of Mr Nolan in 2017 but thought that the information was no longer of use or value. That is definitively not the case which she made in her oral evidence during which she said that she made &#8216;a bit of sense&#8217; of parts like &#8216;Big Eyes&#8217; but that it was otherwise meaningless.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Her description of rewriting the notes in the way and manner she claimed is simply not credible. That explanation is further undermined by her decision to keep the notes, a decision which makes no sense at all. It is also worthy of mention that none of this information was stored on her laptop unlike other pieces referred to above.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The notes were secreted in her home. It may be that the notes were not very well hidden, but it is undeniable that they were hidden.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">She claimed in cross-examination that she made lots of other notes on tobacco paper, but none was found during the police search, nor were any produced in evidence at the trial.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(v)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">If the defendant had given oral evidence along the lines previewed in her defence statement, she would inevitably have been questioned about knowing a lot about the Kevin Nolan matters and why she thought there was no longer any value in the notes. It seems to me that those questions would have been exceptionally difficult for her to answer. In my judgment, she gave a new and different account in order to avoid such questions. The new account is simply false.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant appealed against her conviction. One of the grounds of her appeal was that the judge &#8220;erroneously relied, heavily so, on a finding that the appellant&#8217;s evidence had departed from the account given in her defence statement in making the further finding that her evidence was untruthful&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant contended that the judge&#8217;s interpretation of para 4(n) was erroneous. He had read the first two sentences as being connected. They were not. The first sentence provided a temporal framework for when the appellant received the notes. The second sentence indicated the appellant&#8217;s attitude to the notes when she received them. The judge had wrongly interpreted these sentences as saying that: &#8220;These original notes were forwarded to the Defendant some considerable time after the events giving rise to Kevin Nolan&#8217;s conviction and were forwarded after Kevin Nolan was sentenced, therefore any currency in the information contained in the notes was considered by the Defendant to have long since dissipated&#8221;. This is not what is stated. The two sentences in para 12 above are separated by a full stop and not joined by the word &#8220;therefore&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In its judgment of 10 November 2023 dismissing the appeal [2023] NICA 74, the Court of Appeal considered that this issue of interpretation of the defence statement raised a question of law. On that basis it concluded as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[101] The trial judge entertained no reservations about the meaning of para 4(n) of the DS. He considered it &#8216;obvious&#8217;. This court is unable to identify any error of law in the construction espoused by the judge. Furthermore, having construed the DS in this way, the judge did not rest. Rather, he provided a reasoned analysis of why the appellant&#8217;s sworn evidence had entailed a &#8216;new and different account&#8217;: see para [42](v). The extensive arguments on behalf of the appellant do not engage with this passage in any meaningful way. This court considers the reasoning in this passage to be cogent&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Alternatively, if it was a question of fact, the court concluded that the &#8220;judge&#8217;s assessment of the meaning of para 4(n) of the DS was not merely &#8216;justified&#8217;: in our judgement, it was irresistible &#8211; in his terms, &#8216;obvious&#8217;&#8221; (para 102). It stated as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[106] The trial judge&#8217;s assessment of the appellant&#8217;s account as untruthful was not confined to his construction of para 4(n) of the DS. Rather it had several other ingredients. There is no sustainable challenge to any of these. The judge concluded that the appellant&#8217;s account was directly contradicted by all the evidence. He identified no evidence supporting it. These are powerful, uncompromising findings. They are plainly harmonious with the evidence adduced. They betray no error of law.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">[107] Furthermore, it is to be noted that the judge&#8217;s diagnosis of a direct contradiction of the appellant&#8217;s account by the evidence included what followed. The five particulars then formulated, therefore, were not designed to be exhaustive. It is clear to this court from its careful review of the transcribed evidence, particularly that of the appellant, that the judge could have amplified his list. In particular, and inexhaustively, the judge could readily have added that the appellant&#8217;s claim that the notes allegedly received by her were never going to be of any journalistic value because of (a) their lack of intelligibility and (b) the anonymity factor was manifestly irreconcilable with her assertions that she nonetheless devoted a full week to the exercise of deciphering them and struggled to comprehend much of their meaning. The judge could also have made the same assessment of the appellant&#8217;s claim that she copied the content of the notes into her own handwriting for the purpose of protecting the source &#8211; an unidentified person - and, further, one whose lack of identity, on her case, rendered the content journalistically useless. The contradiction is unmistakeable. Equally striking is the appellant&#8217;s failure to adduce evidence of comparable writing conduct &#8211; which, on her case, was available. The judge could also have added that the appellant&#8217;s explanation of her failure to record the relevant information on her laptop (see para [72] above) was incongruous and, hence, unbelievable&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 23 February 2024, the Court of Appeal refused leave to appeal but certified a question of law of general public importance in the following terms:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In a jury trial, is the construction of a defence statement provided under Part 1 of the Criminal Procedure and Investigations Act 1996 a question of law for the trial judge?&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Paraheading2">The appeal</p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It was common ground on the appeal that the certified question of law cannot be answered in abstract terms. The answer will depend on the nature of the statement made in the defence statement and the purpose for which that statement is being relied upon. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It was also common ground that the interpretation of para 4(n) of the defence statement in this case involves a question of fact not law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A helpful summary of whether the meaning or effect of a document involves a question of fact or law in the criminal law context is provided by a note from Professor Sir John Smith in the Criminal Law Review report of <span style="font-style:italic">R v Adams</span> [1994] RTR 220; [1993] Crim LR 525, 526 as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in"><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt;color:initial">&#8220;A distinction must be made according to whether the issue is as to:- </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num class="fontstyle01" style="font-size:13pt">(i)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt;color:initial">the legal effect of the document or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num class="fontstyle01" style="font-size:13pt">(ii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt;color:initial">the meaning of the document as (a) understood or intended by the person making it and (b) understood by the person reading it.</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in"><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt;color:initial">Where the issue is as to the legal effect of the document, it is submitted that it is a matter for the judge. Where the issue is as to meaning intended or understood by the parties it is a matter for the jury.&#8221;</span></p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The present appeal is not concerned with the legal effect of para 4(n) of the defence statement. Rather, it concerns the meaning of the document as understood or intended by the appellant. Under section 6E of CPIA a defence statement &#8220;shall, unless the contrary is proved, be deemed to be given with the authority of the accused&#8221;. In evidence the appellant confirmed the contents of para 4(n) and stated what she understood or intended it to mean. The judge questioned her by reference to how he considered that it would be understood by the person reading the defence statement. That raises a question of fact.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It follows that the appeal requires consideration of the circumstances in which an appellate court may go behind a judge&#8217;s finding of fact. In relation to criminal trials in Northern Ireland conducted by a judge without a jury we were referred to the judgment of Lord Lowry LCJ in <span style="font-style:italic">R v Thain</span> [1985] NI 457 where he stated at pp 474 A-D as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The principles which guide an appellate court in hearing an appeal from the decision of a judge sitting without a jury have been recently restated in this court, with copious references to authority, in <span style="font-style:italic">Northern Ireland Railways v Tweed</span> [1982] 15 NIJB. They are applicable to a criminal non-jury trial, so long as the onus and standard of proof are kept in mind. For present purposes we state the four points which were summarised in that case:</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The trial judge&#8217;s finding on primary facts can rarely be disturbed if there is evidence to support it. This principle applies strongly to assessments of credibility, accuracy, powers of observation, memory and general reliability of the witnesses.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">2.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The appellate court is in as good a position as the trial judge to draw inferences from documents and from facts which are clear but even here must give weight to his conclusions.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">3.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The trial judge can be more readily reversed if he had misdirected himself in law or if he has misunderstood or misused the facts and may thereby have reached a wrong conclusion. For this purpose his judgment may be analysed in a way which is not possible with a jury&#8217;s verdict.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">4.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The appellate court should not resort to conjecture or to its own estimate of the probabilities of a balanced situation as a means of rejecting the trial judge&#8217;s conclusions.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Dessie Hutton KC for the appellant submitted that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">This case concerns an inference to be drawn from a document and an appellate court is in as good a position as the trial judge to draw such an inference.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The inference relied upon by the appellant was plausible and should only be rejected if it is beyond reasonable doubt that it was not a proper interpretation of the document.</p>
+	    </content>
+	  </subparagraph>
+	  <wrapUp>
+	    <p class="ParaNoNumber">I reject both these submissions.</p>
+	  </wrapUp>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As to (1), the interpretation of para 4(n) involves a consideration of the wider evidence. The statement there made has to be considered in its evidential context and by reference to the evidence given in relation to it. Of particular relevance is the appellant&#8217;s evidence as to how she knew that the information in the notes was &#8220;obsolete&#8221;. This implied some knowledge and understanding of the contents of the notes, but her evidence was that the notes meant nothing to her. The apparent explanation provided in para 4(n) put to her by the judge was that she knew that they were obsolete because it was a considerable time after Nolan&#8217;s conviction and sentence. In evidence, she was unable to provide any other explanation of how she knew that &#8220;the currency in the information&#8221; had &#8220;long since dissipated&#8221;. This highlights the point that the interpretation of para 4(n) was simply one aspect of the evidence relevant to the appellant&#8217;s credibility. It was part of the overall assessment of that credibility. Of the four general categories of case set out in <span style="font-style:italic">Tweed</span> and <span style="font-style:italic">Thain</span>, it falls most obviously within category 3 &#8211; ie a finding which can only be challenged if the judge &#8220;misdirected himself in law or if he has misunderstood or misused the facts and may thereby have reached a wrong conclusion&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As to (2), Mr Hutton relied upon the directions to be given in relation to an alleged confession by an accused to the effect that it may only be relied upon if the jury is sure that what was said amounts to a confession &#8211; see, for example, <span style="font-style:italic">R v B</span> [2009] EWCA Crim 2113. By analogy, he argued that an interpretation of para 4(n) adverse to the appellant could only be relied upon if the judge was sure that that was the only proper interpretation to put upon what was said. This is not, however, an analogous case to a confession. There is no requirement or threshold to be met before the statement made can be relied upon. The defence statement was put in evidence (by the defence &#8211; as was common ground). Statements made by or on behalf of the appellant in the defence statement can be relied upon if it is relevant to do so and, in particular, where they may differ from what is said in oral evidence. Whilst the accused&#8217;s guilt has to be proved beyond reasonable doubt, that does not mean that each evidential matter relied upon has to be proved to that standard.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I consider that this is therefore a case in which the appellant has to show a misdirection in law or that a plainly wrong or perverse conclusion has been reached. It is not suggested that there was any misdirection other than in reaching what is said to be an erroneous conclusion as to what para 4(n) means. As to perversity, it was submitted that the judge&#8217;s interpretation was contrary to the ordinary meaning of the words used and was plainly wrong.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I do not consider the judge&#8217;s interpretation to be in any way perverse. The natural inference to be drawn from the inclusion of the first and second sentences of para 4(n) next to each other in the same numbered paragraph is that they are connected. One does not need the inclusion of the word &#8220;therefore&#8221; for such a connection to be made. As such, the reason for the appellant&#8217;s conclusion in the second sentence that the currency of the information in the notes had long since dissipated is apparently that stated in the first sentence &#8211; ie that it was a considerable time after the Nolan conviction and sentence. No other reason is given in the defence statement for drawing that conclusion. Nor was any other reason given in oral evidence. The appellant&#8217;s evidence was that she could not recall why she had formed that opinion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The judge&#8217;s interpretation contributed towards but was not critical to his conclusion as to the appellant&#8217;s lack of credibility. Further cogent reasons for so concluding are set out in para 43 of the judgment, as confirmed in and added to by para 107 of the Court of Appeal&#8217;s judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">No good reason has therefore been shown for going behind the judge&#8217;s conclusion on the question of fact in issue. Moreover, that finding of fact has been upheld by the Court of Appeal and so this is an appeal against concurrent findings of fact. It is only in very rare cases that it will be appropriate for this court to take the exceptional step of disturbing concurrent findings of fact. As stated by Lord Steyn in <span style="font-style:italic">Smith New Court Securities Ltd v Scrimgeour Vickers (Asset Management) Ltd</span> [1997] AC 254, 275:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;While the jurisdiction of the House is not in doubt, it is most reluctant to disturb concurrent findings of fact. There are two reasons for this approach. First, the prime function of the House of Lords is to review questions of law of general public importance. That function it cannot properly discharge if it often has to hear appeals on pure fact&#8230; Secondly, in the case of concurrent findings of fact, the House is confronted with the combined views of the first instance judge and the Court of Appeal. A suggestion that the House can be expected to take a different view on concurrent findings <span style="font-style:italic;font-family:TimesNewRomanPS-ItalicMT">of fact </span>generally gives rise to an initial sense of disbelief.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaNoNumber">See also <span style="font-style:italic">Three Rivers District Council v Governor and Company of the Bank of England (No 3)</span> [2003] 2 AC 201, 254-255, para 73<span style="font-weight:bold"> </span>per Lord Hope of Craighead.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This is similar to the settled practice of the Privy Council &#8211; see<span style="font-style:italic"> Devi v Roy </span>[1946] AC 508, 521; <span style="font-style:italic">Central Bank of Ecuador v Conticorp SA</span> [2015] UKPC 11, paras 4-7; <span style="font-style:italic">Desir v Alcide</span> [2015] UKPC 24, paras 24-26; <span style="font-style:italic">Al Sadik v Investcorp Bank BSC</span> [2018] UKPC 15, paras 43-45; <span style="font-style:italic">Pickle Properties Ltd v Plant</span> [2021] UKPC 6, para 3. The reasons for that practice include that: (i) the reliability of the trial judge&#8217;s findings will already have been subjected to careful review by a properly constituted and experienced court of appeal; (ii) where two courts (one of them appellate) have agreed upon a finding of fact, it is inherently unlikely that a second appellate court will be well-placed to disagree with both of them with any degree of confidence; (iii) the parties are entitled to expect a reasonable degree of finality in litigation and (iv) the minute examination of the detailed evidence underlying findings of fact is an expensive and time-consuming process &#8211; see <span style="font-style:italic">Sancus Financial Holdings Ltd v Holm (Practice Note) </span>[2022] UKPC 41; [2022] 1 WLR 5181, para 5.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">These reasons apply with equal, if not greater, force to second appeals to the Supreme Court given its prime function of deciding points of law of general public importance.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Paraheading2">Conclusion</p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For all these reasons I would dismiss the appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
