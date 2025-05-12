@@ -252,5 +252,4 @@ if __name__ == "__main__":
     """
     bot.test_downloads()
     #downlading latest data
-
-    #bot.test_downloads()
+    
