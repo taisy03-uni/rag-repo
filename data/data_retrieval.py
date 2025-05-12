@@ -8,6 +8,12 @@ class DataDownload():
         self.main_url = "https://caselaw.nationalarchives.gov.uk"
         self.atom_url = "https://caselaw.nationalarchives.gov.uk/atom.xml"
         self.tags_court = [
+            {"uksc": "United Kingdom Supreme Court"}, 
+            {"ukpc": "United Kingdom Privy Council"},
+            {"ewca": [
+                {"ewca%2Fciv": "Court of Appeal (Civil Division)"},
+                {"ewca%2Fcrim" : "Court of Appeal (Criminal Division)"}
+                ]},
             {"ewhc": [
                 {"ewhc%2Fadmin": "High Court (Administrative Court)"},
                 {"ewhc%2Fadmlty": "High Court (Admiralty Division)"},
@@ -224,35 +230,15 @@ class DataDownload():
 
     def test_downloads(self):
         ## returns the number of files in the data folder
-        data_folder = "data"
+        root_dir = "data"
+        results = []
         count = 0
-        #go thorugh each folder in the data folder, output the number of files in each folder
-        #TODO
+        for dirpath, dirnames, filenames in os.walk(root_dir):
+            print(f"Found directory: {dirpath}")
+            print(len(filenames))
+            count += len(filenames)
+        print(f"Total number of files: {count}")
 
-tags_court = [
-            {"uksc": "United Kingdom Supreme Court"}, 
-            {"ukpc": "United Kingdom Privy Council"},
-            {"ewca": [
-                {"ewca%2Fciv": "Court of Appeal (Civil Division)"},
-                {"ewca%2Fcrim" : "Court of Appeal (Criminal Division)"}
-                ]},
-            {"ewhc": [
-                {"ewhc%2Fadmin": "High Court (Administrative Court)"},
-                {"ewhc%2Fadmlty": "High Court (Admiralty Division)"},
-                {"ewhc%2Fch": "High Court (Chancery Division)"},
-                {"ewhc%2Fcomm": "High Court (Commercial Court)"},
-                {"ewhc%2Ffam": "High Court (Family Division)"},
-                {"ewhc%2Fipec": "High Court (Intellectual Property Enterprise Court)"},
-                {"ewhc%2Fkb": "High Court (King's Bench Division)"},
-                {"ewhc%2Fmercantile": "High Court (Mercantile Court)"},
-                {"ewhc%2Fpat": "High Court (Patents Court)"},
-                {"ewhc%2Fscco": "High Court (Senior Court Costs Office)"},
-                {"ewhc%2Ftcc": "High Court (Technology and Construction Court)"}
-                ]},
-            {"ewcr": "Crown Court"},
-            {"ewcc": "County Court"},
-            {"ewfc": "Family Court"},
-            {"ewcop": "Court of Protection"}]
 
 
 if __name__ == "__main__":
