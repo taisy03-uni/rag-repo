@@ -237,9 +237,51 @@ class DataDownload():
             print(f"Found directory: {dirpath}")
             print(len(filenames))
             count += len(filenames)
-        print(f"Total number of files: {count}")
+        print(f"Total number of files: {count}")    
 
-
+    def get_file_paths(self, court="", year=""):
+        """
+        Returns a list of file paths based on the provided court and year parameters.
+        
+        Args:
+            court (str): The court/tribunal identifier (e.g., "uksc", "ewca%2Fciv")
+            year (str): The year as a string (e.g., "2020")
+        
+        Returns:
+            list: A list of file paths matching the criteria
+        """
+        root_dir = "data"
+        paths = []
+        
+        # Walk through all directories and files
+        for dirpath, _, filenames in os.walk(root_dir):
+            # Skip if no files in directory
+            if not filenames:
+                continue
+                
+            # Case 1: No filters - return all files
+            if not court and not year:
+                paths.extend([os.path.join(dirpath, f) for f in filenames])
+                
+            # Case 2: Only court filter provided
+            elif court and not year:
+                # Check if court is in the directory path
+                if court in dirpath:
+                    paths.extend([os.path.join(dirpath, f) for f in filenames])
+                    
+            # Case 3: Only year filter provided
+            elif not court and year:
+                # Check if year is in the directory path
+                if year in dirpath:
+                    paths.extend([os.path.join(dirpath, f) for f in filenames])
+                    
+            # Case 4: Both court and year filters provided
+            else:
+                # Check if both court and year are in the directory path
+                if court in dirpath and year in dirpath:
+                    paths.extend([os.path.join(dirpath, f) for f in filenames])
+        
+        return paths
 
 if __name__ == "__main__":
     bot = DataDownload()
@@ -249,7 +291,7 @@ if __name__ == "__main__":
     bot.make_folders_court()
     bot.make_folders_tribunal()
     bot.get_all_data()
-    """
     bot.test_downloads()
-    #downlading latest data
-    
+    """
+    #example usage of the get_file_paths method
+    print(bot.get_file_paths(court = "ewca%2Fciv", year = "2002"))
