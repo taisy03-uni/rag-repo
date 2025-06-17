@@ -258,7 +258,9 @@ class DataDownload():
             # Skip if no files in directory
             if not filenames:
                 continue
-                
+            #skip .Ds_Store and .git directories
+            if ".DS_Store" in filenames or ".git" in dirpath:
+                continue
             # Case 1: No filters - return all files
             if not court and not year:
                 paths.extend([os.path.join(dirpath, f) for f in filenames])

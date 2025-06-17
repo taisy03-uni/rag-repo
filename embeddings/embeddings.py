@@ -1,17 +1,200 @@
+from data.data_retrieval import DataDownload
+from bs4 import BeautifulSoup
+import re
+import random
+from tqdm import tqdm  # For progress bars
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+import openai  # You'll need to install and configure this
+from transformers import AutoModel, AutoTokenizer  # For LegalBERT and ModernBERT
+import torch
+
 
 class Embedder():
     def __init__(self, model):
         self.model = model 
-
-    def get_file_paths(self, court = "", year = ""):
-        paths = []
-        if court == "" and year == "":
-            court = "data/court"
+        self.data = DataDownload()
+        self.paths = self.data.get_file_paths() #gets all file paths from the data retrieval module
+        self.embeddings_cache = {}  # To store embeddings for comparison
+        self.device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")  # For M1/M2 Macs
+    
+    def clean_text(self, text: str) -> str:
+        text = re.sub(r'\n{2,}', '\n', text)
+        text = re.sub(r' +', ' ', text)
+        text = text.strip()
+        #remove any line that begins with #judgment
+        text = re.sub(r'(?m)^#judgment.*\n?', '', text)
+        return text
+    
+    def get_file_text(self, path):
+        """Open and parse XML file using BeautifulSoup, returning the text content."""
+        try:
+            with open(path, 'r', encoding='utf-8') as file:
+                soup = BeautifulSoup(file, 'xml')
+                return self.clean_text(soup.get_text())
+        except Exception as e:
+            print(f"Error reading file {path}: {e}")
+            return None
+    
+    def legal_bert_embed(self):
+        """
+        Embed the text using legalbert
+        """
+        model_name = "nlpaueb/legal-bert-base-uncased"
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModel.from_pretrained(model_name).to(self.device)
+        
+        embeddings = {}
+        
+        print("Generating LegalBERT embeddings...")
+        for path in tqdm(self.paths, desc="Processing files"):
+            text = self.get_file_text(path)
+            if text:
+                # Tokenize and truncate to 512 tokens (BERT's limit)
+                inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512).to(self.device)
+                with torch.no_grad():
+                    outputs = model(**inputs)
+                # Use mean of last hidden states as the embedding
+                embedding = outputs.last_hidden_state.mean(dim=1).cpu().numpy().flatten()
+                embeddings[path] = embedding
+        
+        self.embeddings_cache['legal_bert'] = embeddings
+        return embeddings
+    
+    def openai_embed(self):
+        """
+        Embed the text using OpenAI's embedding model
+        """
+        embeddings = {}
+        
+        print("Generating OpenAI embeddings...")
+        for path in tqdm(self.paths, desc="Processing files"):
+            text = self.get_file_text(path)
+            if text:
+                # Truncate to ~8000 tokens (OpenAI's limit for text-embedding-ada-002)
+                truncated_text = text[:8000*4]  # Rough estimate of 4 chars per token
+                try:
+                    response = openai.Embedding.create(
+                        input=truncated_text,
+                        model="text-embedding-ada-002"
+                    )
+                    embedding = np.array(response['data'][0]['embedding'])
+                    embeddings[path] = embedding
+                except Exception as e:
+                    print(f"Error embedding file {path}: {e}")
+        
+        self.embeddings_cache['openai'] = embeddings
+        return embeddings
+    
+    def modernbert_embed(self):
+        """
+        Embed the text using modernbert (assuming this is a fine-tuned BERT model)
+        """
+        model_name = "bert-base-uncased"  # Replace with your modernbert model name
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModel.from_pretrained(model_name).to(self.device)
+        
+        embeddings = {}
+        
+        print("Generating ModernBERT embeddings...")
+        for path in tqdm(self.paths, desc="Processing files"):
+            text = self.get_file_text(path)
+            if text:
+                # Tokenize and truncate to 512 tokens
+                inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512).to(self.device)
+                with torch.no_grad():
+                    outputs = model(**inputs)
+                # Use mean of last hidden states as the embedding
+                embedding = outputs.last_hidden_state.mean(dim=1).cpu().numpy().flatten()
+                embeddings[path] = embedding
+        
+        self.embeddings_cache['modernbert'] = embeddings
+        return embeddings
+    
+    def compare_embeddings(self, sample_size=10):
+        """
+        Compare the embeddings generated by different methods
+        Returns a dictionary of comparison metrics
+        """
+        if len(self.embeddings_cache) < 2:
+            print("Need at least 2 sets of embeddings to compare")
+            return None
+        
+        # Get common files that have embeddings in all methods
+        common_files = set(self.paths)
+        for method in self.embeddings_cache:
+            common_files.intersection_update(self.embeddings_cache[method].keys())
+        
+        if not common_files:
+            print("No common files with embeddings across all methods")
+            return None
+        
+        # Sample files for comparison
+        sample_files = random.sample(list(common_files), min(sample_size, len(common_files)))
+        
+        comparison_results = {
+            'pairwise_similarity': {},
+            'average_similarity': {}
+        }
+        
+        methods = list(self.embeddings_cache.keys())
+        
+        # Calculate pairwise cosine similarities
+        for i in range(len(methods)):
+            for j in range(i+1, len(methods)):
+                method1 = methods[i]
+                method2 = methods[j]
+                
+                similarities = []
+                for file in sample_files:
+                    emb1 = self.embeddings_cache[method1][file]
+                    emb2 = self.embeddings_cache[method2][file]
+                    
+                    # Reshape for cosine_similarity
+                    emb1 = emb1.reshape(1, -1)
+                    emb2 = emb2.reshape(1, -1)
+                    
+                    similarity = cosine_similarity(emb1, emb2)[0][0]
+                    similarities.append(similarity)
+                
+                pair_name = f"{method1}_vs_{method2}"
+                comparison_results['pairwise_similarity'][pair_name] = {
+                    'mean': np.mean(similarities),
+                    'std': np.std(similarities),
+                    'min': np.min(similarities),
+                    'max': np.max(similarities)
+                }
+        
+        # Calculate average similarity across all pairs
+        for method in methods:
+            all_sims = []
+            for file in sample_files:
+                emb = self.embeddings_cache[method][file].reshape(1, -1)
+                
+                # Compare with all other files' embeddings from the same method
+                other_files = [f for f in sample_files if f != file]
+                for other_file in other_files:
+                    other_emb = self.embeddings_cache[method][other_file].reshape(1, -1)
+                    similarity = cosine_similarity(emb, other_emb)[0][0]
+                    all_sims.append(similarity)
             
-            #return list of all file paths
-        elif court != "" and year == "":
-            return None
-            #return list of file paths for the given court/tribunal
-        elif court == "" and year != "":
-            return None
-            #return list of file paths for the given year
+            comparison_results['average_similarity'][method] = {
+                'mean': np.mean(all_sims),
+                'std': np.std(all_sims),
+                'min': np.min(all_sims),
+                'max': np.max(all_sims)
+            }
+        
+        return comparison_results
+    
+
+embedder = Embedder("legal-bert")
+
+# Generate embeddings
+legal_bert_embeddings = embedder.legal_bert_embed()
+openai_embeddings = embedder.openai_embed()
+modernbert_embeddings = embedder.modernbert_embed()
+
+# Compare them
+comparison = embedder.compare_embeddings(sample_size=20)
+print(comparison)

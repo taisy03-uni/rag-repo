@@ -1,0 +1,3 @@
+Processing file: data/court/ewhc/ewhc%2Ftcc/2016/1699.xml
+Current max token size: 524907.0
+
