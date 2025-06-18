@@ -1,3 +1,6 @@
 .DS_Store
 data/court/
 data/tribunals/
+.env
+# Ignore Python cache files
+__pycache__/

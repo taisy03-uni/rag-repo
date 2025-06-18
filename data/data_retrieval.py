@@ -287,13 +287,10 @@ class DataDownload():
 
 if __name__ == "__main__":
     bot = DataDownload()
-
-    """
-    # Uncomment this if you are accessing this for the first time
+    """# Uncomment this if you are accessing this for the first time
     bot.make_folders_court()
     bot.make_folders_tribunal()
     bot.get_all_data()
     bot.test_downloads()
-    """
-    #example usage of the get_file_paths method
+    #example usage of the get_file_paths method"""
     print(bot.get_file_paths(court = "ewca%2Fciv", year = "2002"))

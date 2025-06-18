@@ -14,7 +14,7 @@ class Embedder():
     def __init__(self, model):
         self.model = model 
         self.data = DataDownload()
-        self.paths = self.data.get_file_paths() #gets all file paths from the data retrieval module
+        self.paths = self.data.get_file_paths(year="2025") #gets all file paths from the data retrieval module
         self.embeddings_cache = {}  # To store embeddings for comparison
         self.device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")  # For M1/M2 Macs
     
@@ -35,6 +35,14 @@ class Embedder():
         except Exception as e:
             print(f"Error reading file {path}: {e}")
             return None
+    
+    def chunk_text(self, text):
+        if len(text) < 1000:
+            return [text]
+        else:
+            #split text hirerarchically 
+            return [text[i:i + 1000] for i in range(0, len(text), 1000)]
+       
     
     def legal_bert_embed(self):
         """
@@ -59,31 +67,6 @@ class Embedder():
                 embeddings[path] = embedding
         
         self.embeddings_cache['legal_bert'] = embeddings
-        return embeddings
-    
-    def openai_embed(self):
-        """
-        Embed the text using OpenAI's embedding model
-        """
-        embeddings = {}
-        
-        print("Generating OpenAI embeddings...")
-        for path in tqdm(self.paths, desc="Processing files"):
-            text = self.get_file_text(path)
-            if text:
-                # Truncate to ~8000 tokens (OpenAI's limit for text-embedding-ada-002)
-                truncated_text = text[:8000*4]  # Rough estimate of 4 chars per token
-                try:
-                    response = openai.Embedding.create(
-                        input=truncated_text,
-                        model="text-embedding-ada-002"
-                    )
-                    embedding = np.array(response['data'][0]['embedding'])
-                    embeddings[path] = embedding
-                except Exception as e:
-                    print(f"Error embedding file {path}: {e}")
-        
-        self.embeddings_cache['openai'] = embeddings
         return embeddings
     
     def modernbert_embed(self):
@@ -192,8 +175,6 @@ embedder = Embedder("legal-bert")
 
 # Generate embeddings
 legal_bert_embeddings = embedder.legal_bert_embed()
-openai_embeddings = embedder.openai_embed()
-modernbert_embeddings = embedder.modernbert_embed()
 
 # Compare them
 comparison = embedder.compare_embeddings(sample_size=20)

@@ -1,0 +1,737 @@
+EWHC-QBD-Admin
+2011
+1145
+[2011] EWHC 1145 (Admin)
+0.26.1
+849b2cdef8581516d811e112298c80739cacfd4b0862e0e8f48c4789d69b76db
+6.0.2
+Neutral Citation Number: [2011] EWHC 1145 (Admin)
+Case No: CO/3214, 4688 & 6954/2010
+IN THE HIGH COURT OF JUSTICE
+DIVISIONAL COURT
+Royal Courts of Justice
+Strand, London, WC2A 2LL
+Date: 11/05/2011
+Before :
+LORD JUSTICE LAWS
+
+
+
+
+
+The Queen of the application of HH
+Claimant
+- and -
+City of Westminster Magistrates Court
+Defendant
+HH
+1st Appellant
+- v -
+Deputy Prosecutor of the Italian Republic, Genoa (on behalf of the Italian Judicial Authorities)
+Respondent
+PH
+2nd Appellant
+- v -
+Deputy Prosecutor of the Italian Republic, Genoa (on behalf of the Italian Judicial Authorities)
+Respondent
+- and -
+X, Y and Z (through the Official Solicitor, their Litigation Friend
+Intervenors/
+Interested Parties
+
+
+
+
+
+Mr Alan Jones QC and Mr John Jones (instructed by Wainwright & Cummins) for the Claimant and 1st Appellant
+Mr John Hardy QC and Mr Ben Lloyd (instructed by the CPS) for the Respondent
+Mr Alun Jones QC and Mr John Jones (instructed by Wainwright & Cummins) for the Claimant and 1st Appellant 
+Mr Ian Wise QC and Mr Steven Powles (instructed by Wainwright & Cummins) for the 2nd Appellant
+Mr Hugo Keith QC and Ms Caoilfhionn Gallagher (instructed by The Official Solicitor) for the Interested Parties (by written submissions)
+Hearing dates: 8 December 2010 and 7 April 2011
+
+
+
+
+
+Judgment
+Lord Justice Laws:
+INTRODUCTION
+1.
+There are three matters before the court. (1) Mrs H (“HH”) renews her application for permission to seek judicial review of the decision of DJ Evans given at the City of Westminster Magistrates Court on 4 February 2010 not to discharge or adjourn extant extradition proceedings against her. (2) HH also brings a statutory appeal against the order of DJ Evans at the same court on 14 April 2010 that she be extradited to Italy to serve a sentence of 9 years 6 months and 21 days imprisonment for drugs offences. (3) Her husband Mr H (“PH”), who was her co-accused in Italy, appeals against the order of DJ Evans at the same court on 21 June 2010 that he be extradited to Italy to serve an outstanding sentence of some four years. 
+2.
+
+
+
+
+
+The judicial review claim was lodged in this court on 8 March 2010. Permission was refused on the papers by Dobbs J on 26 March 2010. The statutory appeals brought pursuant to s.26 of the 2003 Act were respectively lodged on 16 April 2010 (HH) and 23 June 2010 (PH). On 9 August 2010 Ouseley J ordered that the renewed application for judicial review permission be dealt with by the Divisional Court at a rolled up hearing with the substantive judicial review to follow if permission were granted, and that the statutory appeals be dealt with at the same hearing. Ouseley J also granted permission for PH and HH’s three children, acting by their litigation friend the Official Solicitor, to intervene in the proceedings and to file evidence in the appeals. The children are: X born on 23 November 2000, Y born on 21 November 2003, and Z born on 10 June 2009. 
+3.
+
+
+
+
+
+The case first came before me on 8 December 2010. Certain issues were canvassed on that occasion and I will return to them; but the major questions in the case, which were argued at the restored hearing on 7 April 2011, were and are (a) whether it would be unjust or oppressive to extraditeby reason of her mental condition, within the meaning of s.25(2) of the Extradition Act 2003 (“the 2003 Act”), and (b) whether the appellants’ right to respect for family life guaranteed by Article 8 of the European Convention on Human Rights (“ECHR”) would be violated by their extradition: s.21 of the 2003 Act. The focus of the Article 8 claim is the plight of the H’s three young children in the event that their parents are extradited. I will set out the material legislation in due course. I adjourned the case on 8 December 2010 so that the Genoese prosecuting authority (then represented by Mr James Lewis QC) might obtain up-to-date psychiatric evidence relating to HH, and to afford the Official Solicitor an opportunity to file further evidence (if so advised) and written submissions in the interests of the children. Those steps were taken and the case was re-listed before me on 7 April 2011, when I heard live evidence from two psychiatrists, Dr Dove and Dr Joseph, and full argument on the Article 8 and s.25 issues. Mr Ian Wise QC then represented PH and Mr John Hardy QC the prosecuting authority. Neither had appeared on 8 December. Mr Hardy submitted that it was wrong in principle for interested third parties, such as the appellants’ children, to be permitted to take part in extradition proceedings. I will deal with that in due course.
+THE LEGISLATION
+4.
+The relevant provisions of the 2003 Act are as follows. S.2(2) requires (so far as relevant) a Part 1 European Arrest Warrant (“EAW”) to contain
+“(b)
+the statement referred to in subsection (5) and the information referred to in subsection (6)”.
+S.2(5) and (6) provide:
+“(5)
+The statement is one that—
+(a)
+the person in respect of whom the Part 1 warrant is issued is alleged to be unlawfully at large after conviction of an offence specified in the warrant by a court in the category 1 territory, and
+(b)
+the Part 1 warrant is issued with a view to his arrest and extradition to the category 1 territory for the purpose of being sentenced for the offence or of serving a sentence of imprisonment or another form of detention imposed in respect of the offence.
+(6)
+The information is—
+...
+(b)
+particulars of the conviction...”
+
+
+
+
+
+5.
+S.4(3) and (5) provide:
+“(3)
+The person [sc. arrested under a Part 1 EAW] must be brought as soon as practicable before the appropriate judge.
+...
+(5)If subsection (3) is not complied with and the person applies to the judge to be discharged, the judge must order his discharge.”
+6.
+S.20 provides in part:
+“(1)
+If the judge is required to proceed under this section... he must decide whether the person was convicted in his presence.
+(2)
+If the judge decides the question in subsection (1) in the affirmative he must proceed under section 21.
+(3)
+If the judge decides that question in the negative he must decide whether the person deliberately absented himself from his trial.
+(4)
+If the judge decides the question in subsection (3) in the affirmative he must proceed under section 21.
+(5)
+If the judge decides that question in the negative he must decide whether the person would be entitled to a retrial or (on appeal) to a review amounting to a retrial.
+(6)
+
+
+
+
+
+If the judge decides the question in subsection (5) in the affirmative he must proceed under section 21.
+(7)
+If the judge decides that question in the negative he must order the person’s discharge.
+(8)
+The judge must not decide the question in subsection (5) in the affirmative unless, in any proceedings that it is alleged would constitute a retrial or a review amounting to a retrial, the person would have these rights—
+(a)
+the right to defend himself in person or through legal assistance of his own choosing or, if he had not sufficient means to pay for legal assistance, to be given it free when the interests of justice so required;
+(b)
+the right to examine or have examined witnesses against him and to obtain the attendance and examination of witnesses on his behalf under the same conditions as witnesses against him.”
+7.
+S.21 provides in part:
+“(1)
+
+
+
+
+
+If the judge is required to proceed under this section... he must decide whether the person’s extradition would be compatible with the Convention rights within the meaning of the Human Rights Act 1998.
+(2)
+If the judge decides the question in subsection (1) in the negative he must order the person’s discharge.”
+8.
+S.25:
+“(1)
+This section applies if at any time in the extradition hearing it appears to the judge that the condition in subsection (2) is satisfied.
+(2)
+The condition is that the physical or mental condition of the person in respect of whom the Part 1 warrant is issued is such that it would be unjust or oppressive to extradite him.
+(3)
+The judge must—
+(a)
+order the person’s discharge, or
+(b)
+adjourn the extradition hearing until it appears to him that the condition in subsection (2) is no longer satisfied.”
+9.
+
+
+
+
+
+S.26 confers a right of appeal to this court against an order for extradition, on a question of law or fact and without any requirement of permission to appeal. S.27, cross-headed “Court’s powers on appeal under section 26”, provides:
+“(1)
+On an appeal under section 26 the High Court may—
+(a)
+allow the appeal;
+(b)
+dismiss the appeal.
+(2)
+The court may allow the appeal only if the conditions in subsection (3) or the conditions in subsection (4) are satisfied.
+(3)
+The conditions are that—
+(a)
+the appropriate judge ought to have decided a question before him at the extradition hearing differently;
+(b)
+if he had decided the question in the way he ought to have done, he would have been required to order the person’s discharge.
+(4)
+The conditions are that—
+(a)
+an issue is raised that was not raised at the extradition hearing or evidence is available that was not available at the extradition hearing;
+(b)
+
+
+
+
+
+the issue or evidence would have resulted in the appropriate judge deciding a question before him at the extradition hearing differently;
+(c)
+if he had decided the question in that way, he would have been required to order the person’s discharge.
+(5)
+If the court allows the appeal it must—
+(a)
+order the person’s discharge;
+(b)
+quash the order for his extradition.”
+10.
+I should also set out ECHR Article 8, which as is well known provides:
+“1.
+Everyone has the right to respect for his private and family life, his home and his correspondence.
+2.
+There shall be no interference by a public authority with the exercise of this right except such as is in accordance with the law and is necessary in a democratic society... for the prevention of disorder or crime...”
+HISTORY
+11.
+
+
+
+
+
+PH and HH were arrested in Italy on 23 September 2003 for serious drugs offences. They were caught red-handed escorting a cargo of 205.7 kilograms of hashish which had been imported to Italy from Morocco. They and others had been under observation by the police for some time. Both were initially remanded in custody. On 20 October 2003 HH, being then eight months pregnant, was released on house arrest subject to conditions. At length, however, in breach of condition she left Italy before the charges against her and her husband were heard; DJ Evans was to find that she had deliberately absented herself from her trial, a finding which Mr Alun Jones QC on her behalf indicated on 8 December 2010 he could not challenge. PH remained in custody until 7 October 2004. He was then released, as I understand it by virtue of custody time limits imposed by Italian law. Shortly thereafter he too left Italy. On 17 December 2004 at the Court of Genoa both were convicted in their absence of drug trafficking and related offences, and sentenced to 14 years imprisonment. This was subject to confirmation and so was not a final judgment. On 15 March 2005 PH and HH were declared unlawfully at large. On 19 April 2006 the Court of Appeal at Genoa confirmed the convictions and sentences. However this judgment was subject to appeal or review before the Court of Cassation. On 1 August 2008 the court at Genoa issued EAWs against PH and HH. These were “accusation warrants”, that is, they were issued to secure the return of the appellants to stand their trial in Italy on the footing that the orders against them were not yet final. 
+12.
+On 4 August 2008 PH was arrested in this country. The initial hearing under Part 1 of the 2003 Act was completed and the extradition hearing was fixed to commence on 8 August 2008. On 8 August 2008 HH was also arrested, by arrangement. On the same day the extradition hearings in both cases at the City of Westminster Magistrates Court were adjourned. The District Judge directed that both be dealt with together. The hearing was fixed for 10 October 2008, but the fixture was broken and the matter relisted for 31 October 2008. It was adjourned again from that date at the behest of either or both appellants, and re-commenced on 27 November 2008. DJ Evans heard argument on certain points, but the balance of the hearing was adjourned again, as I understand it because the District Judge required certain information in relation to a specialty issue. It was at length refixed for 20 February 2009, when PH and HH both gave evidence. The case was adjourned part-heard to 25 March 2009. After the hearing on 20 February 2009 HH collapsed in the street and was admitted to hospital under the Mental Health Act 1983. She was in hospital for nearly four months.
+
+
+
+
+
+13.
+On 25 March 2009 DJ Evans delivered a substantive judgment. He held (paragraph 13) that PH and HH had deliberately absented themselves from their trial in Italy. He also stated that HH had been unwell since the previous hearing, and 
+“[t]here may be a s.25 submission on her behalf. But for this development I would have ordered extradition against both today”.
+
+
+
+
+
+And so the case was further adjourned to 7 April 2009, when an addendum report from a psychiatrist, Dr Meats, was before the judge which indicated that HH could not understand proceedings in court, could not travel otherwise than in an ambulance, and could not look after herself or her children on her own. The doctor also stated that further court appearances would exacerbate her condition, and it was possible that continuing uncertainty was aggravating and prolonging that condition. DJ Evans expressed himself not satisfied with Dr Meats’ reports. The Crown Prosecution Service on behalf of the Genoese prosecuting authority (as I understand it, at the judge’s invitation) subsequently themselves instructed a psychiatrist, Dr Joseph, of whom I will have more to say. The case was further adjourned to 5 May 2009.
+14.
+
+
+
+
+
+Meantime, however, on 28 April 2009 the appellants’ case came before the Court of Cassation in Rome. Their convictions and sentences were varied so that in the result PH had four years imprisonment to serve and HH 9 years 6 months and 21 days. This reflected what was shown to be PH’s lesser role. He was what on 14 April 2010 DJ Evans was to call a “mere participant” whereas HH was a “promoter and organiser of the criminal association”. By force of the Court of Cassation’s order the convictions became final, so that the accusation warrants were superseded (save as regards one outstanding charge relating to PH, which has led to a distinct argument on his behalf which I must address). This development was not, however, immediately reflected in the proceedings at the City of Westminster Magistrates Court; indeed the appellants say that the Italian prosecuting authority insisted until a date in October 2009 that the accusation warrants remained valid and enforceable. On 5 May 2009 the extradition hearing was adjourned again and re-fixed for 10 June 2009. On that date HH gave birth to her daughter Z. Manifestly she was not at court, and the case was put back yet again to 14 August 2009. HH was discharged from hospital on 17 June 2009. She was not at court on 14 August. The District Judge was then told that there were issues relating’s health and the status of the EAWs. The case was refixed for 26 October 2009 for the convenience of Dr Nabavi and Dr Joseph, both of whom had produced psychiatric reports. 
+15.
+In September 2009 the appellants’ solicitor Mr Lyness visited the appellants at home. HH was in what Mr Lyness described as a pitiful state. She wet herself. He could not take instructions. She remained lying on a mattress. PH looked after the baby.
+
+
+
+
+
+16.
+On 23 October 2009 a new EAW was issued against HH, to replace that of 11 August 2008. This was a “conviction warrant”, following the proceedings at the Court of Cassation in Rome on 28 April 2009. It was certified by the Serious Organised Crime Agency (“SOCA”) on the same day. Hearings proceeded on 26 October and 10 November 2009. HH was not at court on either occasion. On 10 November she attended, but was almost hit by a car outside the court building after she threw herself into the road when she realised she was being taken to court. She was therefore taken to hospital. In her absence submissions were made to DJ Evans to the effect that he should recuse himself from the proceedings. He gave judgment on 11 November declining to do so. He stated:
+
+
+
+
+
+“The only reason I am being asked to leave the case is to give the defence a second crack of the whip, as I found both defendants fled Italy in breach of their bail, and maybe another District Judge might be persuaded to give a judgment more favourable to PH and HH.”
+DJ Evans indicated also that he had not yet seen the new EAW for HH. He acknowledged that that would involve fresh extradition proceedings, but
+“[w]here the contest involves the same issues of fact, it will be contrary to justice for evidence to be called again, and the fact that the same District Judge deals with the new warrant does not imply that the DJ is biased.”
+17.
+
+
+
+
+
+And so DJ Evans refused the application to recuse himself. He was to revisit the issue on 14 April 2010 (judgment paragraph 42) and 21 June 2010 (judgment paragraph 85, in relation to PH) further submissions having been advanced by counsel. Meantime the case was adjourned to 11 January 2010. However there was a further adjournment in the expectation that PH would also be arrested on a fresh EAW; that had not yet been done. A conviction warrant was issued against him on 25 January 2010. It did not, as I understand it, fully replace the accusation warrant of 1 August 2008: there was as I have indicated one offence in respect of which he remained an accused person.
+18.
+
+
+
+
+
+Because of her state of health HH was not arrested on the conviction EAW issued against her until 2 February 2010. She was placed in a wheelchair, taken to hospital for the night, and the next day brought to the City of Westminster Magistrates Court in a van. There being no effective disabled access, she remained there. She wet herself. She mumbled incoherently. The next day, 4 February 2010, she was brought back to the court building but similar difficulties arose. However with the parties’ consent, the case proceeded in a hearing held by the side of the police van in the court car park. HH was discharged on the first EAW. The initial hearing on the new EAW went ahead. Counsel on her behalf applied for an adjournment under s.25(3)(b) of the 2003 Act, submitting that her mental condition was such that it would be oppressive to extradite her. DJ Evans refused the application.
+19.
+
+
+
+
+
+However the hearing was in fact adjourned until 9 March 2010. HH did not attend. The extradition hearing on the conviction EAW was completed subject to judgment, which was delivered by DJ Evans on 14 April 2010. On that day he ordered HH’s extradition to Italy. In the course of his judgment DJ Evans made findings adverse to HH which have been the subject of substantial argument. I will deal in due course with the relevant submissions, but it is convenient now to set out the material passages in DJ Evans’ judgment. It is to be noted that HH had given evidence once only, on 20 February 2009, in the course of the proceedings on the earlier accusation warrant. Referring to that occasion at paragraph 41 of the judgment, DJ Evans said:
+“She did give evidence and I found her an untruthful manipulative witness.” 
+Then under the heading “HH [sc. HH]’s Health”:
+
+
+
+
+
+“44... Z was conceived after HH’s arrest on the accusation EAW. FH [sc. PH] told me in evidence this was unplanned. It must remain an open question whether Z’s conception was (irresponsibly and selfishly) intended to provide a useful argument in support of HH and FH’s opposition to the extradition request.
+45.
+At the extradition hearing held on 20th February 2009, HH was able to give coherent (albeit untruthful) evidence. She was not suffering from any significant ill-health.” 
+The judge proceeded to summarise HH medical history, referring to the reports of Dr Nabavi, Dr Joseph and Dr Meats. I should cite this reference to Dr Joseph’s conclusion, which as I shall show DJ Evans was to accept:
+“51.
+
+
+
+
+
+In Dr Joseph’s opinion HH did suffer an acute stress reaction after her attendance in court on 20.02.09, but as at May 2009 she was not suffering from any mental disorder of a nature or degree, which might prevent her from being extradited. The psychiatrists at the Mental Health Unit thought her symptoms were consistent with anxiety and had excluded any other form of mental illness, for example psychosis or a depressive illness.” 
+Then at paragraph 58:
+
+
+
+
+
+“Both Drs Nabavi and Joseph gave evidence in court. I found Dr Joseph’s evidence rejecting Dr Nabavi’s conclusion that HH was suffering from PTSD and co-morbid Depressive and Anxiety Disorders quite compelling. However, perhaps the label to be attached to a condition is not so important. What is important is a determination of HH’s medical suitability for extradition and on that topic there was no agreement. Both doctors held to their opinions. Having reflected on their evidence and having considered all the other relevant evidence I have come to the following conclusions:
+(1)
+HH only became unwell on 20.02.09.
+(2)
+She is not suffering from any mental illness which is susceptible to treatment in a mental hospital. She is not suffering from PTSD and/or co-morbid Depressive and Anxiety disorders. She does not have any medical complaint which is conventionally treatable.
+(3)
+
+
+
+
+
+Her condition appears to have been self-induced, and might very easily resolve itself just as quickly as it manifested itself.
+(4)
+It is in the interests of HH and FH to do everything they can to exaggerate HH’s condition and the adverse impact extradition might have on their children.
+(5)
+I accept that HH has a condition, a real condition and she is not putting it on only when she is in public, but I am not convinced it is as severe as she would like me to believe or as Dr Nabavi suggests. Nevertheless her hysterical response to this extradition request would seem to be her method of dealing with her situation.
+(6)
+
+
+
+
+
+For all the reasons discussed above, and because I consider her a manipulative dishonest witness I have concluded that she and FH are the classical fugitives from justice. I do not believe a word of HH’s allegations of mistreatment in Italy. Those (false) allegations were influential in Dr Nabavi’s reasoning in coming to his stated opinion. Notwithstanding Dr Nabavi’s views... I wonder whether HH might unconsciously produce false and grossly exaggerated symptoms... There is some evidence, which I am inclined to accept, that HH is aware of situations when it is in her interests to exaggerate her symptoms. That suggests to me that she is much more aware of circumstances around her than is apparent. She can, to a certain extent, decide whether to disengage or refuse to engage. 
+(7)
+
+
+
+
+
+I think we can all remember a certain Mr Saunders’s miraculous recovery from Alzheimer’s disease. I have little doubt that HH would recover quickly if not extradited. Similarly once she appreciates that the ‘game is up’ and that she will be extradited, then such a realisation could also assist in her speedy recovery.
+(8)
+I found Dr Joseph’s evidence the more compelling, and I accept his opinion as summarised in paragraph 51 above. Effectively there is no medical reason which renders it inappropriate to effect HH’s extradition and it would not be oppressive to order it.” 
+20.
+In the same judgment DJ Evans then proceeded to address the submissions that had been advanced under ECHR Article 8. After citing extensively from the decision of the Supreme Court in Norris v USA [2010] UKSC 9 (to which I must return), he said:
+“63.
+
+
+
+
+
+To return both HH and FH would have a dramatically adverse impact on the family unit... The worst case presented to me is that Z would be put up for adoption and X and Y would be fostered, but that might not necessarily mean keeping them together. Such an outcome would be deeply unfortunate for parents and children alike. 
+64.
+Applying Norris I have to consider the family unit as a whole and regard each child a victim. The circumstances here are exceptional. It is rare that both parents are sought for extradition, which if granted, would effectively orphan three young children. I have to decide whether the consequences of the interference with article 8 rights is exceptionally serious before this can outweigh the importance of extradition. Such a consideration also requires an assessment of the seriousness of the offending in Italy. These are grave offences...
+66.
+
+
+
+
+
+I accept it is not in the interests of the children for them to be separated from either parent and all the more so from both parents... [67] Separation from both parents will have a profound effect on the children’s physical and emotional health and may lead to multiple problems for the children in the future...” 
+However the District Judge concluded:
+“70.
+I am satisfied that to order the extradition of both HH and FH would be compatible with their Convention rights taking into consideration not only their individual rights and those of each of their children, but also their collective rights. I recognise this will tear apart the H family and leave young children without either of their parents.”
+21.
+
+
+
+
+
+The decision to extradite PH and HH was then made (paragraph 71) and HH’s extradition was ordered. However the process as against PH was not yet complete. It was only the day before this judgment, on 13 April 2010, that the conviction EAW in his case was certified by SOCA. He was arrested on it on 14 April 2010, when the extradition hearing in relation to it was opened and adjourned. DJ Evans gave a further judgment on 21 June 2010, when he ordered PH extradition on the conviction EAW, having, as he then put it, “already decided” that extradition should be ordered on the single remaining accusation charge. 
+JUDICIAL REVIEW: S.4(3) OF THE 2003 ACT
+22.
+
+
+
+
+
+I will deal first with the points argued on 8 December 2010, beginning with the submissions of Mr Jones for HH in the renewed application for judicial review permission. His argument was that his client, having been arrested on the conviction EAW on 2 February 2010 at about 11 am but not produced at court until about 4 pm on 4 February, was not “brought as soon as practicable before the appropriate judge” within the meaning of s.4(3) of the 2003 Act and was accordingly entitled to be discharged pursuant to s.4(5). 
+23.
+
+
+
+
+
+It is not entirely clear to me precisely when an application for discharge under s.4(5) was made, or first made. But in any event (and leaving aside any possible difficulty arising from the exclusivity of the appeal jurisdiction – s.34, which I have not set out) the argument is surely hopeless. Given the exigencies arising from HH’s condition at the time (which I have summarised from her solicitor’s statement attached to the judicial review application) it seems to me that the authorities could hardly have proceeded more speedily than they did. There is nothing in this point. 
+S.2 NOT COMPLIED WITH?
+24.
+On 8 December 2010 Mr Jones for HH also submitted that the conviction EAW issued against his client was invalid for failure to comply with s.2 of the 2003 Act. The argument is that s.2(6)(b), the requirement to provide “particulars of the conviction”, was not fulfilled. 
+25.
+
+
+
+
+
+On its face the EAW complies with s.2(6)(b). It sets out the date of the conviction, the relevant offences, the sentence and the name of the trial court. But Mr Jones submits that the subsection should be read as requiring the provision of information regarding HH’s trial in her absence in accordance with box (d) of the Annex to the Council Framework Decision of 13 June 2002 on the European Arrest Warrant. Article 8 of the Framework Decision provides:
+“The [EAW] shall contain the following information set out in accordance with the form contained in the Annex...”
+There follow seven heads of information of which two are:
+“(c)
+evidence of an enforceable judgment, an arrest warrant or any other enforceable judicial decision having the same effect...;
+(d)
+the nature and legal classification of the offence...”
+Box (d) of the form contained in the Annex is in these terms:
+“Decision rendered in absentia and:
+•
+
+
+
+
+
+the person concerned has been summoned in person or otherwise informed of the date and place of the hearing which led to the decision rendered in absentia,
+or
+•
+the person concerned has not been summoned in person or otherwise informed of the date and place of the hearing which led to the decision rendered in absentia but has the following legal guarantees after surrender...”
+Mr Jones submits that this information is not to be found in HH’s EAW, and s.2(6)(b) must be read as requiring that to be done, given that the 2003 Act has to be interpreted “as far as possible in the light of the wording and purpose of the Framework Decision in order to attain the result which it pursues”: see Louca v German Judicial Authority [2009] UKSC 4, paragraph 5.
+26.
+
+
+
+
+
+I cannot accept this argument. However broad an approach is apt to the task of construing the 2003 Act, I do not consider that s.2(6)(b) can properly be read as importing box (d) of the Annex to the Framework Decision. But in any case Article 8, in my judgment, is not there to establish technical or linguistic requirements as to the contents of the EAW. It imposes a substantive obligation to provide the information which it sets out. That is not to say that the circumstances in which a conviction may have been imposed in the absence of the prospective extraditee are unimportant; quite the contrary. S.20 of the 2003 Act, set out above, requires the judge to investigate that very issue. If he finds that the extraditee did not deliberately absent himself from his trial, the extradition may only proceed if there is an effective right to a retrial (s.20(5) and (8)). The requesting State will have to provide evidence both of the events which happened and the rights available to the extraditee, and that is commonly done. 
+27.
+In fact the EAW in HH’s case contains this (at box (d)):
+“Judgment of conviction issued: declared unlawfully at large on 15.3.05
+She was duly defended by a personally appointed defence lawyer in the course of the criminal proceedings and by a Court appointed lawyer in the enforcement phase”.
+For HH to be declared unlawfully at large she must have been notified of the proceedings, as was later confirmed by the Italian authorities. In my judgment the form of the EAW in her case both complied with s.2 of the 2003 Act and was fully in conformity with the purposes of the Framework Decision.
+28.
+PH had a separate point concerning the validity of the first, accusation EAW. The conviction EAW is unaffected. The point arises as follows. There is now material to show that on 2 February 2011 the sentence for the matter previously outstanding against him was upheld by the Supreme Court of Cassation in Rome, so as to become final and enforceable. Accordingly it is submitted that the accusation EAW is now plainly invalid. In fact PH (then represented by Mr Ryder QC) sought to assault the validity of the accusation EAW on 8 December 2010. However it seems to me that at least until 2 February 2011 the accusation EAW was and remained good (subject to the issues on HH’s mental condition and ECHR Article 8) for the single remaining accusation charge to which it related, essentially for the reasons given by DJ Evans at paragraph 21 of his judgment of 14 April 2010 which I will not repeat. 
+29.
+What is the effect of the Supreme Court of Cassation’s order of 2 February 2011? In the course of argument on 7 April 2011 there was no discussion of the subject; the hearing’s scope was confined to s.25(2) and Article 8. However in his skeleton argument prepared for the hearing on 7 April Mr Wise for PH had this to say (paragraph 8): 
+“... It is recognised though that the consequence of succeeding on this point [sc. obtaining a discharge on the accusation EAW] will, no doubt, be the issuance of a new conviction EAW in relation to the [outstanding charge] which will, no doubt, fall to be determined on the basis of [the s.25 and Article 8 issues already before the court].”
+And at paragraph 47:
+“[The accusation EAW]... is plainly invalid... For the reasons given at para 8 above if the Appellant succeeds on this point the consequence will inevitably be a re-run of the arguments presented above. It is for that reason that the Appellant invites the court to determine this matter on the Convention arguments [sc. on ECHR Article 8] outlined above.”
+30.
+That is eminently pragmatic. S.27 of the 2003 Act does not appear in terms to require the court to allow an appeal where the conditions in ss.(3) or (4) are satisfied, but confers a discretion: “[t]he court may allow the appeal only if...”: s.27(2)). Plainly the circumstances in which it might be proper to dismiss an appeal notwithstanding fulfilment of s.27(2) must, to say the least, be very rare indeed. However in the particular circumstances emphasised by Mr Wise I think it proper to adopt the course he proposes. Accordingly I need say no more about the form of the accusation EAW. I will address the Article 8 arguments in due course.
+PROCEDURE ADOPTED BY THE DISTRICT JUDGE
+31.
+The remaining point argued by Mr Jones on 8 December 2010 was to the effect that DJ Evans had improperly “carried over” the proceedings on the accusation EAW into those on the conviction EAW, essentially by making adverse findings against HH in his judgment on the conviction EAW on 14 April 2010 in reliance on evidence he had heard in the accusation proceedings on 20 February 2009. I have set out the essential findings at paragraph 19. At the outset of the judgment of 14 April 2010 DJ Evans stated:
+“This ruling is a continuation of the written ruling I gave on 25 March 2009.”
+Mr Jones says this was illegitimate. The proceedings on the accusation EAW came to an end when HH was discharged in relation to it. The proceedings on the conviction EAW were separate and autonomous. Thus HH was entitled to decide afresh whether or not to give evidence in those proceedings.
+
+
+
+
+
+32.
+The EAW system is intended to operate speedily and simply: see, for example, Preamble (5) and Article 17 of the Framework Decision, and Office of the King’s Prosecutor v Armas [2005] UKHL 67, paragraphs 1 – 2. There is nothing in the 2003 Act to prevent the judge from proceeding as DJ Evans did, and to do so served the ends of simplicity and expedition. His comments in refusing the recusal application on 11 November 2009 (which I have set out above at paragraph 16) were in my judgment apt. He was of course bound to apply afresh the provisions of Part 1 of the 2003 Act to the new conviction warrant, and thus to determine the matters specified in ss.10 – 21. That he did. He was bound also to consider any further evidence offered by or on behalf of HH. There was none. In my judgment DJ Evans was entitled on 14 April 2010 to make findings having regard to the evidence given on 20 February 2009. 
+33.
+
+
+
+
+
+It is perhaps not without significance that in his skeleton argument prepared for the hearing on 8 December 2010 (paragraph 6) Mr Jones’ junior described this point as “not a ground of appeal in itself”, though it was quite substantially relied on. In so far as it is properly before me I would reject it. It has been associated on HH’s behalf with a submission that DJ Evans should have recused himself for bias when application to that effect was made to him in November 2009. As I have said DJ Evans rejected that application at the time, but revisited it on 14 April (paragraph 42) and 21 June 2010 (paragraph 85). This bias submission was barely pressed on 8 December 2010. In my judgment, while the judge had expressed himself very robustly on 14 April 2010, he was right to reject it essentially for the reasons he gave on 11 November 2009 and in the paragraphs of his judgments to which I have referred.
+HH’S MENTAL CONDITION
+34.
+
+
+
+
+
+First, it seems to me to be clear that since HH’s extradition was (finally) sought on a conviction, not an accusation EAW, the question under s.25(2) of the 2003 Act is whether it would be oppressive rather than unjust to extradite her. I should also indicate that on 8 December 2010 it was conceded by Mr Lewis for the prosecuting authority that if I were to conclude that HH’s mental condition is such that it would be oppressive to extradite her to Italy, then PH’s appeal must also succeed on the footing that in those circumstances his extradition would violate his rights guaranteed by ECHR Article 8. To that extent at least s.25 and Article 8 may be said to run together. However both Mr Jones and Mr Wise submitted on 7 April 2011 that I should adopt a composite approach to the s.25 issue regarding HH’s mental condition and the Article 8 case relating to the children, and thus, so to speak, treat each as supporting the other. Intuitively that seems appropriate, but ss.21 and 25 on their face require separate and distinct decisions, although (as Mr Hardy acknowledged) there may be an evidential overlap. I turn first to the s.25 issue.
+35.
+As I have said, I heard brief live evidence on 7 April 2011 from Dr Dove and Dr Joseph. Dr Dove was called by Mr Jones and Dr Joseph by Mr Hardy. Both are consultant forensic psychiatrists, with considerable experience of dealing with persons convicted of serious crimes. Dr Dove had prepared a report dated 6 December 2010 in which (Opinion, paragraph 4) she indicated a diagnosis of moderate to severe depressive disorder, with a poor prognosis (paragraph 12). She had not been involved in the case before 29 November 2010, when she saw HH at the latter’s home for about an hour. Dr Joseph (as I have indicated) had been involved earlier and had prepared earlier reports, on 22 May 2009 and 26 October 2009. He produced a fresh report, dated 20 January 2011, for the April 2011 hearing. He had seen HH once only for about ten minutes, on 18 May 2009, when she was a psychiatric in-patient. On that occasion she threw what he described as a “tantrum” when he mentioned the court proceedings. Dr Joseph did not see her with a view to the preparation of his latest report. Dr Dove told me that after a discussion with Dr Joseph she did not consider that an interview with HH would cause him to change his view of her, which was (as expressed in his January 2011 report), that she was not suffering from any form of mental illness but “[did] not want to be extradited to Italy” (paragraph 6) and was “unwilling to participate in [the extradition] proceedings” (paragraph 9).
+
+
+
+
+
+36.
+I shall return to the up-to-date medical evidence, but should first articulate precisely the nature of the court’s task on these appeals, not least since I have evidence that was not before DJ Evans. As I have shown s.27(2) permits the court to allow an appeal if (s.27(4) – I repeat the provision for convenience):
+“(a)
+an issue is raised that was not raised at the extradition hearing or evidence is available that was not available at the extradition hearing;
+(b)
+the issue or evidence would have resulted in the appropriate judge deciding a question before him at the extradition hearing differently;
+(c)
+if he had decided the question in that way, he would have been required to order the person’s discharge.”
+37.
+
+
+
+
+
+Accordingly, as it seems to me, the principal question for the court on this part of the case is whether evidence before me which was not available to DJ Evans would have resulted in a decision under s.25(2) favourable to HH, leading in consequence to her discharge (and that of PH). I apprehend, however, that Mr Jones would in any event have me allow the appeal on the footing that DJ Evans “ought to have decided [the s.25(2)] question... differently” within the meaning of s.27(3)(a), on the evidence before him. I would reject such a submission. I am not, of course, by any means confined to a conventional review jurisdiction along Wednesbury lines ([1948] 1 KB 223) under s.27(3) any more than under s.27(4); but I would have to have some objective basis for departing from the judge’s view of the facts on the evidence he had. He had heard Dr Nabavi and Dr Joseph give live testimony, and of course HH herself on 20 February 2009. It is true that HH’s symptoms, now relied on to support a diagnosis of mental illness, had not arisen before 20 February 2009. As Dr Dove stated in her report (under “Past Psychiatric History”), “[p]rior to February 2009 HH had had no contact with psychiatric services and had no prior episodes of self harm or suicide attempts”. Thus Mr Jones submits that the apparent quality of her evidence given at that time should not have formed the basis or, I think he would say, in any way affected, an assessment of her mental condition as at April 2010. 
+38.
+I should notice that DJ Evans’ adverse findings on 14 April 2010 were principally or entirely made in the context of a passage of time argument (s.11(1)(c) of the 2003 Act, which I have not set out) which Mr Jones did not pursue on 8 December 2010. I acknowledge also that the judge formed a very hostile impression, and I consider his comment (paragraph 44) about HH’s last pregnancy to be unwarranted. That was not however a finding, and the judge was plainly entitled in general terms to make the judgment he did of HH’s character and veracity as at February 2009. He was also entitled, indeed in my view was right, to treat his findings as material to the view he took of the psychiatric evidence for the reasons he gave at paragraph 58 of his judgment. I note in particular paragraph 58(6), and the observation there that lies told by HH “were influential in Dr Nabavi’s reasoning in coming to his stated opinion” (viz. that she was suffering from PTSD and co-morbid depressive and anxiety disorders).
+
+
+
+
+
+39.
+
+
+
+
+
+I return to the real debate, that arising under s.27(4) of the 2003 Act: does the further evidence promote a different answer to the s.25(2) question? This evidence is not confined to the fresh reports and oral testimony of Dr Dove and Dr Joseph. HH’s general practitioner describes a state of “severe anxiety” and has apparently referred her to a consultant at the Maudsley Hospital. A social worker, Ms Gemma Manzoor, and a senior practitioner (Carer Development and Support), Mr Nigel Walker, have both expressed recent concerns. Ms O’Brien, a support worker, has visited the PH and HH twelve times and found HH on a mattress, withdrawn and apparently unaware of her husband, children or visitors. Dr Sharon Pettle, a consultant clinical psychologist and systemic psychotherapist specialising in child and adolescent mental health, provided a report dated 13 September 2010. Its principal focus is the plight of the children (and in that context I must return to it), but part of her account is material to the s.25(2) issue. She visited PH and HH at home on 27 August 2010. HH was asleep on a mattress. She was immediately tearful on waking. She repeatedly asked Dr Pettle if she had come to take her children away. She barely interacted with her daughter Z. Dr Pettle described what the elder two children had said to her. Some of their comments, submits Mr Jones, show that HH’s withdrawn state persists when she is unobserved by outsiders; and this tends to demonstrate that her behaviour is not a deliberate pretence. The references are paragraphs 3.08 and 3.09 (the son X) and 4.6 (the daughter Y) of Dr Pettle’s report. This is in contrast to some material recorded by Dr Joseph: in his first report of 22 May 2009 (paragraph 5) he describes being told by a junior doctor at the mental health unit that HH had been talking to her husband on the ward, but “immediately stopped doing so when she realised she was being observed by the doctor”. 
+40.
+I have already summarised in outline the views of Dr Dove and Dr Joseph as set out in their recent reports. Dr Dove’s report contains a very full and careful description of the history. She describes all the earlier professional opinions. She explains (Opinion, paragraph 4) her diagnosis of moderate to severe depressive disorder as based on “[HH’s] presentation with low mood, anhedonia and associated features including biological features of depression (excessive sleep, poor appetite and lack of energy) in addition to cognitive features of depression (negative thoughts about herself and the world...)”. Dr Dove considered (paragraphs 9 and 10) that she should be admitted to hospital. She confirmed (paragraph 14) earlier opinions that “it is likely that the stress of the court proceedings initially in Italy but more evidently in the UK have precipitated Mrs HH’s illness and presentation”.
+
+
+
+
+
+41.
+Although Dr Joseph has insisted in no uncertain terms that HH is not suffering from any mental illness, in some respects his views are not far distant from that last observation of Dr Dove’s (barring the reference to “illness”). Thus at paragraph 1 of the Conclusions to his first report of 22 May 2009 he accepted that “HH suffered an acute stress reaction after her attendance in court on 20th February 2009 because she feared that she would be extradited to Italy”. There was also her “tantrum”, as Dr Joseph put it, when he saw her on 18 May 2009 and mentioned the court proceedings to her. In his oral evidence on 7 April 2011 he described that episode as a “hysterical outburst”. He also told me that she was “having an extensive reaction to these proceedings”.
+42.
+
+
+
+
+
+Dr Dove for her part was prepared to accept that it was not possible to exclude altogether the possibility that HH was fabricating her symptoms, but the doctor insisted that if that were to be taken (so to speak) to be the whole story (my words), the diagnostician would have to be very clear that there was no underlying psychopathology. She stated that it was not uncommon for defendants in criminal cases to exaggerate their symptoms, “consciously or unconsciously”. She added that any fabrication by HH “could be unconscious”.
+43.
+
+
+
+
+
+Both doctors were asked about HH’s incontinence. Dr Joseph said there was no physiological cause and it was either deliberate or occurred “because she is very distressed”. It would only be occasioned by mental illness in the case of a patient with a very serious condition such as dementia, from which HH was certainly not suffering. Dr Dove (recalled to consider this question) accepted there was no physical cause of which she was aware, and told me that it might have been “the product of her extreme distress”.
+44.
+
+
+
+
+
+What should I make of all this material? In my opinion an important feature of the case is that there are not merely two rival explanations for HH’s behaviour pattern since February 2009, of which the first is that it is all a deliberate pretence and the second is that it is a product of mental illness. There is a third. It is that it is a reaction, albeit extreme, to the extradition proceedings; not a pretence, not an illness. This possibility is I think hardly different from the notion of an “unconscious fabrication”, briefly spoken to by Dr Dove. And it marries with at least some of the language used by Dr Joseph: “acute stress reaction”, “extreme reaction”. 
+45.
+
+
+
+
+
+I do not consider it shown that HH’s behaviour pattern is all a deliberate pretence, a conscious fabrication from first to last. There is some evidence that her aberrant conduct is continued in the confines of the family as well as outside, and is not only exhibited to those she may wish to impress. This theory, moreover, is to my mind the more improbable because it would require me to find her capable of acting out, over a considerable period, a very extreme and sustained scenario, including incidents of incontinence. That is not to deny, however, that some features of her behaviour may have been knowingly exaggerated.
+46.
+
+
+
+
+
+Nor is it demonstrated to my mind that she is suffering from a mental illness. (1) It must surely be accepted that however one categorises her behaviour, it has been precipitated by the court proceedings. (2) The expert evidence shows, as it seems to me, that the diagnostic process in the case is highly empirical. Thus (as I have indicated) in arriving at her diagnosis (Opinion, paragraph 4) Dr Dove referred to HH’s “low mood, anhedonia,... excessive sleep, poor appetite... lack of energy... [and] negative thoughts”. It is a matter of ordinary experience that such conditions may variously, and in various degrees, be exhibited by a well person as a reaction to circumstance. On the facts of this case I do not believe that they demonstrate mental illness rather than the stress and misery HH feels when she contemplates what faces her. (3) Although there is evidence, as I have said, that HH’s behaviour is not only manifested in the presence of people she may wish to impress, there is also evidence that she presents differently at different times. And I note the fact, agreed to by Dr Dove, that the latter’s opinion “was based on [HH’s] presentation to Dr Dove at the time of their interview” (Dr Joseph’s report of 20 January 2011, paragraph 6). These features, I think, point towards stress rather than illness as an explanation. (4) DJ Evans’ findings remain of some relevance, although of course the occasion when HH gave evidence before him is now more distant in time. (5) In a letter dated 4 November 2009 quoted by Dr Joseph at paragraph 5 of his report of 7 April 2011 Dr Whan, commenting on HH’s time as an in-patient in 2009, stated: 
+“[H]er presentation was due to a current life situation rather than a mental illness. She was therefore deemed not suitable for the primary care team, and equally the Crisis Resolution/Home Treatment Team did not feel their input had been of any benefit. It was agreed that HH would be discharged back to her GP with a view that counselling from MIND could be an additional support.” 
+In all these circumstances I prefer the third explanation I have canvassed: an extreme reaction to the extradition proceedings. 
+47.
+I should say that I have considered what difference this finding, as opposed to one of mental illness, properly makes to the outcome of the s.25(2) issue. I have done so bearing in mind what was said by Janet Smith LJ in this court in Boudhiba [2007] 1 WLR 124, [2006] EWHC Admin 167 at paragraph 65:
+“It is important, in my view, that the court should keep its eye firmly on the statutory question posed by section 25. The question is not whether the appellant is suffering from a psychiatric disorder with or without the added disadvantage of low intelligence; it is whether, by reason of his mental condition it would unjust or oppressive to extradite him.”
+I apprehend that if I am right, and HH’s behaviour pattern is a reaction to circumstance, not a mental illness, it is perhaps more likely to be resolved once these proceedings are over than if the reverse were the case. At all events, on all the evidence it does not appear to me that her mental condition is such that it would be oppressive to extradite her. That is not to say that I would have found the other way had I concluded she was suffering from a mental illness. Though I have no concrete evidence of the state of psychiatric resources in Italy, it is of course a civilised State and fellow signatory to the ECHR. There is every reason to presume that she would be properly looked after.
+
+
+
+
+
+48.
+In the result, for the reasons I have set out (which are similar to those given by DJ Evans at paragraph 58 of his judgment but include my assessment of the evidence not before him), I conclude that HH is not to be discharged pursuant to s.25(2) of the 2003 Act. 
+ECHR ARTICLE 8
+49.
+The question here is not the resolution of a disputed factual issue but the correct application of legal principle. In particular, I must consider what if any is the impact of the decision of the Supreme Court in ZH (Tanzania) [2011] UKSC 4; [2011] 2WLR 148 upon its earlier judgment in Norris v USA [2010] UKSC 9; [2010] 2WLR 572.
+50.
+The facts relating to the three children are effectively undisputed and undoubtedly stark. Although DJ Evans rejected the Article 8 case in his judgment of 14 April 2010, he by no means understated the children’s plight. I repeat for convenience these short extracts:
+
+
+
+
+
+“63... The worst case presented to me is that Z would be put up for adoption and X and Y would be fostered, but that might not necessarily mean keeping them together...
+67... Separation from both parents will have a profound effect on the children’s physical and emotional health and may lead to multiple problems for the children in the future...
+70.
+I am satisfied that to order the extradition of both HH and FH would be compatible with their Convention rights... I recognise this will tear apart the H family and leave young children without either of their parents.” 
+51.
+
+
+
+
+
+There has been some further investigation of the question whether the children might be cared for by a relative, without the need of recourse to any other agency. However (as is shown by a third witness statement from the solicitor Mr Oliver Studdert) nothing of substance has come of that. In particular it appears that it would not realistically be possible for HH’s mother to look after Z in Morocco. None of PH’s siblings could look after any of the children. I approach the case on the footing that if the extraditions go ahead the children will probably have to be cared for through or with the assistance of public services in this country, and that it is possible that that will involve splitting them up.
+52.
+The principal evidence as to the effect on the children of the prospective extraditions is the report of Dr Pettle dated 13 September 2010. It is a very detailed document. I need however only cite these passages from the section headed “Answers to questions”:
+“10.6
+
+
+
+
+
+Although there are variations in the circumstances that would follow in the different scenarios, it is inevitable that separation from one or both parents would cause the children intense and long lasting distress. Such a lengthy separation could be thought of as akin to a death, which is a traumatic and devastating loss for any child... The children may manifest reactions in a variety of ways, but it can be expected that both the older children may exhibit denial, disbelief, anger and sadness along with some behavioural change in activity levels and attention. Once X and Y are told, these circumstances are likely to cause immense anxiety and psychological panic as they will be facing what for most children is the worst nightmare imaginable.
+...
+
+
+
+
+
+10.8... Separation from their father would be acutely emotionally distressing for all the children, and their responses would be likely to vary in severity depending on what other losses followed his departure, for example, if a foster placement was not in the same area this could necessitate a change of school...
+...
+10.11
+To be suddenly faced with the departure of both parents, and a move to live with strangers is one of the most catastrophic events to befall any child, and represents a massive emotional and psychological challenge...
+10.12
+The departure of both parents, even for children with some resilience, is likely to be an overwhelmingly painful experience, and their immediate reactions may be very similar to bereavement: over activity, profound sadness and distress, withdrawal and regression, anger and defiance, poor sleeping and eating, and a deterioration in their school performance. Alternative carers will need to be sensitive to any changes in their behaviour...”
+
+
+
+
+
+Dr Pettle has produced an addendum report dated 24 March 2011. It shows that all three children have progressed well in various respects (paragraphs 2.1.5, 2.1.6, 2.2.2), though X and Y have had some difficulties (2.3.2, 2.3.4). They – X and Y – have shown considerable resilience but are now showing signs of strain not apparent last year (3.1.1; 3.1.2 (X), 3.1.3 (Y)). Overall Dr Pettle confirms (paragraph 3.1.8) the opinions expressed in her principal report.
+53.
+
+
+
+
+
+I turn to the two cases, Norris v USA and ZH (Tanzania). The first was before DJ Evans who as I have indicated cited from it extensively in his judgment of 14 April 2010. ZH had not by then been decided. In Norris, in which the Supreme Court sat nine Justices, the proposed extraditee was a 66 year old man in a very parlous state of health. His wife suffered from a major depressive illness. His extradition was sought to the United States for grave offences of obstructing justice. His wife would not be able to accompany him. The question of general public importance certified by this court was:
+“Is the public interest in honouring extradition treaties such as to require, in any extradition case, that an appellant must show ‘striking and unusual facts’ or reach ‘a high threshold’ if his article 8 claim is to succeed?”
+
+
+
+
+
+The phrases in quotation marks were taken from earlier cases. Lord Phillips (with whom all the other members of the court agreed) reviewed the authorities in Strasbourg and this jurisdiction. I may go directly to his conclusions:
+“52.
+
+
+
+
+
+It is of critical importance in the prevention of disorder and crime that those reasonably suspected of crime are prosecuted and, if found guilty, duly sentenced. Extradition is part of the process for ensuring that this occurs, on a basis of international reciprocity. It is instructive to consider the approach of the Convention to dealing with criminals or suspected criminals in the domestic context. Article 5 includes in the exceptions to the right to liberty (i) the arrest of a suspect, (ii) his detention, where necessary, pending trial, and (iii) his detention while serving his sentence if convicted. Such detention will necessarily interfere drastically with family and private life. In theory a question of proportionality could arise under article 8(2). In practice it is only in the most exceptional circumstances that a defendant would consider even asserting his article 8 rights by way of challenge to remand in custody or imprisonment – see R (P) v Secretary of State of the Home Department [2001] EWCA Civ 1151, [2001] 1 WLR 2002, para 79, for discussion of such circumstances. Normally it is treated as axiomatic that the interference with article 8 rights consequent upon detention is proportionate.
+...
+55.
+I reject Mr Sumption’s contention that it is wrong for the court, when approaching proportionality, to apply a ‘categorical assumption’ about the importance of extradition in general. Such an assumption is an essential element in the task of weighing, on the one hand, the public interest in extradition against, on the other hand, its effects on individual human rights. This is not to say that the latter can never prevail. It does mean, however, that the interference with human rights will have to be extremely serious if the public interest is to be outweighed. 
+56.
+The reality is that only if some quite exceptionally compelling feature, or combination of features, is present that interference with family life consequent upon extradition will be other than proportionate to the objective that extradition serves. That, no doubt, is what the Commission had in mind in Launder (1997) 25 EHRR CD67, 73 when it stated that it was only in exceptional circumstances that extradition would be an unjustified or disproportionate interference with the right to respect for family life. I can see no reason why the District Judge should not, when considering a challenge to extradition founded on article 8, explain his rejection of such a challenge, where appropriate, by remarking that there was nothing out of the ordinary or exceptional in the consequences that extradition would have for the family life of the person resisting extradition. ‘Exceptional circumstances’ is a phrase that says little about the nature of the circumstances. Instead of saying that interference with article 8 rights can only outweigh the importance of extradition in exceptional circumstances it is more accurate and more helpful, to say that the consequences of interference with article 8 rights must be exceptionally serious before this can outweigh the importance of extradition. A judge should not be criticised if, as part of his process of reasoning, he considers how, if at all, the nature and extent of the impact of extradition on family life would differ from the normal consequences of extradition. 
+...
+60.
+Mr Hermer’s submissions (Mr Hermer QC appeared for Liberty as intervener) did not recognise any difference between extradition and expulsion or deportation. I did not find them either realistic or helpful.
+...
+64.
+When considering the impact of extradition on family life, this question does not fall to be considered simply from the viewpoint of the extraditee. On this subsidiary issue also I reject Mr Perry's submission to the contrary. This issue was considered by the House of Lords in the immigration context in Beoku-Betts v Secretary of State for the Home Department [2008] UKHL 39; [2009] AC 115. After considering the Strasbourg jurisprudence the House concluded that, when considering interference with article 8, the family unit had to be considered as a whole, and each family member had to be regarded as a victim. I consider that this is equally the position in the context of extradition. 
+65.
+Indeed, in trying to envisage a situation in which interference with article 8 might prevent extradition, I have concluded that the effect of extradition on innocent members of the extraditee’s family might well be a particularly cogent consideration. If extradition for an offence of no great gravity were sought in relation to someone who had sole responsibility for an incapacitated family member, this combination of circumstances might well lead a judge to discharge the extraditee under section 87 of the 2003 Act.” 
+Applying the law to the facts, Lord Phillips said this:
+“82.
+In a case such as this it is the exception that proves the rule. One has to consider the effect on the public interest in the prevention of crime if any defendant with family ties and dependencies such as those which bind Mr Norris and his wife was thereby rendered immune from being extradited to be tried for serious wrongdoing. The answer is that the public interest would be seriously damaged. It is for this reason that only the gravest effects of interference with family life will be capable of rendering extradition disproportionate to the public interest that it serves. This is not such a case.”
+
+
+
+
+
+54.
+Lord Hope said this:
+“90... In R (Ullah) v Special Adjudicator [2004] 2 AC 323, para 13, [Lord Bingham] said that, while there were substantive differences between expulsion and extradition, the Strasbourg court had held the Soering principle to be potentially applicable in either situation: Cruz Varas v Sweden (1991) 14 EHRR 1, para 70. Lord Steyn said in para 33 that, while the purpose of the two procedures was different, in the context of the possible engagement of fundamental rights under the ECHR the Strasbourg court has not in its case law drawn a distinction between cases in the two categories. I would apply that approach to this case. 
+91.
+
+
+
+
+
+The fact remains however that the cases in which an argument of the kind that Mr Sumption sought to present will succeed are likely to be very few. I agree with Lord Phillips that the reality is that it is only if some exceptionally compelling feature, or combination of features, is present that the interference with the article 8 right that results from extradition will fail to meet the test of proportionality. The public interest in giving effect to a request for extradition is a constant factor, and it will always be a powerful consideration to which great weight must be attached. The more serious the offence the greater the weight that is to be attached to it. As against that, those aspects of the article 8 right which must necessarily be interfered with in every case where criminal proceedings are brought will carry very little, if any, weight; Massey v United Kingdom (Application No 14399/02) (unreported) given 8 April 2003, p 12. Separation by the person from his family life in this country and the distress and disruption that this causes, the extent of which is bound to vary widely from case to case, will be inevitable. The area for debate is likely to be narrow. What is the extra compelling element that marks the given case out from the generality? Does it carry enough weight to overcome the public interest in giving effect to the request?”
+Then at paragraph 93, considering the facts of the case, Lord Hope stated that “[t]he only circumstance which strikes me as not inherent in every extradition process is the delay”, but in the result could “see no grounds for making an exception in this case”.
+55.
+ZH (Tanzania) was not an extradition case. The appellant, a failed asylum-seeker, faced removal from this country to Tanzania. She had two children, aged 12 and 9 at the relevant time, who were British citizens. They had lived here with their mother all their lives, mostly at the same address. She was estranged from their father though he remained in contact with the children. She had an “appalling” immigration history, having put forward fraudulent claims for asylum. At length, however, the Secretary of State conceded that it would be disproportionate to remove the appellant, but was “understandably concerned about the general principles which the Border Agency and appellate authorities should apply” (Baroness Hale, paragraph 13). The specific question for the court’s consideration was formulated by Lady Hale at paragraph 1:
+“[I]n what circumstances is it permissible to remove or deport a non-citizen parent where the effect will be that a child who is a citizen of the United Kingdom will also have to leave?”
+
+
+
+
+
+56.
+At paragraph 23 Lady Hale observed:
+“For our purposes the most relevant national and international obligation of the United Kingdom is contained in article 3(1) of the UNCRC [sc. the United Nations Convention on the Rights of the Child 1989]: 
+‘In all actions concerning children, whether undertaken by public or private social welfare institutions, courts of law, administrative authorities or legislative bodies, the best interests of the child shall be a primary consideration.’
+
+
+
+
+
+This is a binding obligation in international law, and the spirit, if not the precise language, has also been translated into our national law. Section 11 of the Children Act 2004 places a duty upon a wide range of public bodies to carry out their functions having regard to the need to safeguard and promote the welfare of children. The immigration authorities were at first excused from this duty, because the United Kingdom had entered a general reservation to the UNCRC concerning immigration matters. But that reservation was lifted in 2008 and, as a result, section 55 of the Borders, Citizenship and Immigration Act 2009 now provides that, in relation among other things to immigration, asylum or nationality, the Secretary of State must make arrangements for ensuring that those functions ‘are discharged having regard to the need to safeguard and promote the welfare of children who are in the United Kingdom’.
+
+
+
+
+
+Lady Hale indicated (paragraph 25) that the Strasbourg court expects national authorities “to apply article 3(1) of UNCRC and treat the best interests of a child as ‘a primary consideration’”. She proceeded (paragraph 26) to cite Australian authority in line with this, and emphasised (paragraphs 30 ff) the “particular importance” of nationality “in assessing the best interests of any child”. The core of her reasoning, if I may say so, is to be found in paragraph 33:
+
+
+
+
+
+“We now have a much greater understanding of the importance of these issues in assessing the overall well-being of the child. In making the proportionality assessment under article 8, the best interests of the child must be a primary consideration. This means that they must be considered first. They can, of course, be outweighed by the cumulative effect of other considerations. In this case, the countervailing considerations were the need to maintain firm and fair immigration control, coupled with the mother's appalling immigration history and the precariousness of her position when family life was created. But, as the Tribunal rightly pointed out, the children were not to be blamed for that. And the inevitable result of removing their primary carer would be that they had to leave with her. On the facts, it is as least as strong a case as Edore v Secretary of State for the Home Department [2003] 1 WLR 2979, where Simon Brown LJ held that ‘there really is only room for one view’ (para 26). In those circumstances, the Secretary of State was clearly right to concede that there could be only one answer.”
+57.
+Lord Brown and Lord Mance agreed with Lady Hale. Lord Hope and Lord Kerr gave concurring judgments. Lord Kerr said this:
+“46.
+It is a universal theme of the various international and domestic instruments to which Lady Hale has referred that, in reaching decisions that will affect a child, a primacy of importance must be accorded to his or her best interests. This is not, it is agreed, a factor of limitless importance in the sense that it will prevail over all other considerations. It is a factor, however, that must rank higher than any other. It is not merely one consideration that weighs in the balance alongside other competing factors. Where the best interests of the child clearly favour a certain course, that course should be followed unless countervailing reasons of considerable force displace them. It is not necessary to express this in terms of a presumption but the primacy of this consideration needs to be made clear in emphatic terms. What is determined to be in a child’s best interests should customarily dictate the outcome of cases such as the present, therefore, and it will require considerations of substantial moment to permit a different result.”
+58.
+In a written argument for the Official Solicitor on behalf of the children Mr Hugo Keith QC submitted (paragraph 3.11) that the reasoning in ZH applies with no less force to an extradition case such as the present. Mr Wise submitted that Norris must be regarded as modified by ZH. 
+59.
+I consider it impossible to suppose that the court in ZH intended to depart from any of the reasoning in Norris. There is no reference whatever in the former case to the latter, nor indeed to extradition itself. And as I have said, the court in Norris sat nine Justices. The decision in Norris must in my judgment be taken as determinative of the law relating to Article 8 claims by prospective extraditees, no less since ZH than before. That is not to say, however, that ZH has no impact upon the application of the principles in Norris. The proposition that “the best interests of the child shall be a primary consideration” (UNCRC Article 3(1)) is of general application. But the indefinite article – “a primary consideration” – is significant. As Lady Hale stated in ZH (paragraph 25), “‘a primary consideration’ is not the same as ‘the primary consideration’, still less as ‘the paramount consideration’”.
+
+
+
+
+
+60.
+Accordingly, while the best interests of affected children are “a primary consideration” in extradition cases, they cannot generally override the public interest in effective extradition procedures. There has to be an “exceptionally compelling feature” (Norris paragraphs 56, 91), giving rise to “the gravest effects of interference with family life” (paragraph 82). That is not ipso facto supplied by an extradition’s adverse consequences for the extraditee’s children. In fairness I did not understand Mr Keith or Mr Wise to submit otherwise.
+61.
+
+
+
+
+
+The search for what may in truth amount to such an exceptionally compelling feature is, I think, illuminated by these two following considerations. First, it is clear that Lord Phillips in Norris did not regard extradition on the one hand and expulsion or deportation on the other as being in the same case: see paragraph 60. The implication is that if an extradition is to be condemned as disproportionate, the factor or factors relied on to that end must be substantially more pressing than in a deportation case. 
+62.
+
+
+
+
+
+The second consideration, which tends to explain the first, consists in the differences between the nature of the public interest in extradition and that in expulsion or deportation. Mr Hardy submitted that expulsion and deportation are matters only of domestic policy, whereas extradition promotes a universal public benefit. This latter aspect reflects what was said by Lord Phillips at paragraph 52 in Norris (I have already set it out): “It is of critical importance in the prevention of disorder and crime that those reasonably suspected of crime are prosecuted and, if found guilty, duly sentenced. Extradition is part of the process for ensuring that this occurs, on a basis of international reciprocity.” I would venture also to cite this passage from my own judgment in Norris in this court (quoted by Lord Phillips at paragraph 48):
+
+
+
+
+
+“21… [T]he learning, here and in Strasbourg, shows that the public interest in giving effect to bilateral extradition arrangements possesses especially pressing force because of its potency (a) in the fight against increasingly globalised crime, (b) in the denial of safe havens for criminals, and (c) in the general benefits of concrete co-operation between States in an important common cause.”
+These citations describe the importance of the extradition process. But they do not articulate a qualitative difference between deportation and extradition such as might explain why, if it be so, it takes a more pressing Article 8 case to override the latter than the former. Mr Hardy’s contrast between what is domestic and what is international (or universal) will not on its own suffice.
+63.
+
+
+
+
+
+In my judgment the answer is suggested by the following contrasting features of immigration and extradition policy. Good immigration policy (it will generally be recognised) is not all one way; that is to say, it will by no means always be fulfilled by the expulsion of the alien in question. The striking of reasonable balances is an inherent feature of the policy itself, certainly as it is reflected in the current Immigration Rules promulgated by the Secretary of State. But this is not true of the extradition regime. The public interest in extradition is systematically served by the extradition’s being carried into effect, subject to the proper procedures. Where that does not happen, it is not because the striking of reasonable balances is an inherent feature of the policy. It is because, and only because, there exists in the particular case an “exceptionally compelling feature” giving rise to “the gravest effects of interference with family life”, which is quite a different matter. As Lord Hope said in Norris (paragraph 91) “[t]he public interest in giving effect to a request for extradition is a constant factor”; and he referred (ibid.) to “the extra compelling element that marks the given case out from the generality”.
+64.
+I turn to apply the law to the facts. The features of the present case relied on as constituting “the extra compelling element” are, of course, the fact that there are three young children, whose father is their principal carer, that both parents face extradition, and that there appears to be no available recourse to family members or the like for their care if the extraditions go ahead. These are the bare outline; I have had regard to the whole body of evidence, not least the reports of Dr Pettle.
+65.
+After anxious consideration I have concluded that these extraditions would not be disproportionate, on Article 8 grounds, to the legitimate aim which they would undoubtedly serve. PH and HH stand convicted of very grave drugs offences. I acknowledge that the plight of the children is likely to be severe. Where an extraditee is a parent with young children their family life will inevitably be disrupted, it may be very gravely disrupted, by the extradition. The extradition of both parents will certainly make it worse. It is a matter of degree. In my judgment there is however no feature specific to this family which constitutes so pressing and powerful a consideration as to justify the discharge of the parents or either of them on Article 8 grounds.
+
+
+
+
+
+66.
+The appeals are dismissed.
+POSTSCRIPT
+67.
+
+
+
+
+
+There remains Mr Hardy’s submission, to which I referred at paragraph 3, that interested third parties such as the appellants’ children should not in principle be permitted to take part in extradition proceedings. I propose to deal with this shortly. I see no basis for an absolute rule such as Mr Hardy suggests. His contention that only the ECHR rights of the extraditee are to be considered pursuant to ss.21 and (in a Part 2 case) 87 of the 2003 Act, to the exclusion of the associated rights of family members, is with respect misconceived. Where the extraditee has immediate family members with whom he or she enjoys a family life within the meaning of Article 8, it is trite law, needing no citation of authority, that the affected rights of all the family must be considered when an Article 8 claim is advanced; and this is as true in an extradition as in an immigration case. In the former class of case, the Article 8 claim will fall to be resolved in accordance with the principles I have discussed at paragraphs 59 – 63.
+68.
+However I readily accept that the circumstances where justice will require the separate representation of third party family members (whether in court or by written submissions only) will be very few and far between, and I would greatly deprecate the development of applications for such representation as anything approaching a regular practice. The reasons are twofold. First, it is in my view very unlikely that anything to be said touching the Article 8 rights of third parties such as the children of the family could not properly be advanced by the extraditee himself. Secondly, given the requirement of an “exceptionally compelling feature” giving rise to “the gravest effects of interference with family life”, the scope for submissions on behalf of such third parties will be very narrow and in the great majority of cases will not realistically arise at all.
+
+
+
+
+
