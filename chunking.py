@@ -9,7 +9,7 @@ class Chunker():
     def __init__(self, method):
         self.data = DataDownload()
         self.methods = ["fixed_size", "overlap"]
-        self.file_paths = self.data.get_file_paths(court = "ewfc")
+        self.file_paths = self.data.get_file_paths()
         self.chunks = []
 
 
@@ -22,7 +22,7 @@ class Chunker():
         return text
     
     def get_metadata(self, soup, path):
-        frbr_expression = soup.find('FRBRExpression')
+        frbr_expression = soup.find('FRBRWork')
         metadata = {}
         metadata["path"] = path  # Store the file path in metadata
         if frbr_expression:
@@ -34,17 +34,18 @@ class Chunker():
             frbr_date = frbr_expression.find('FRBRdate')
             if frbr_date and 'date' in frbr_date.attrs:
                 metadata['judgment_date'] = frbr_date['date']
-                if 'name' in frbr_date.attrs:
-                    metadata['type'] = frbr_date['name']
-            
+
+            frbr_name = frbr_expression.find('FRBRname')
+            if frbr_name and 'value' in frbr_name.attrs:
+                metadata['name'] = frbr_name['value']
+
             frbr_author = frbr_expression.find('FRBRauthor')
             if frbr_author and 'href' in frbr_author.attrs:
                 metadata['author'] = frbr_author['href']
             
         return metadata
-
+    
     def chunking(self, text):
-        """Chunk text by xml file structure with smart splitting for large sections"""
         if len(text) < 1000:
             return [text]
         
@@ -54,50 +55,46 @@ class Chunker():
         for part in parts:
             if part.strip():  # Skip empty/whitespace-only parts
                 chunks.append(part.strip())
-        
-        # Process chunks that are still too large
-        final_chunks = []
+        new_chunks = []
+
         for chunk in chunks:
-            if len(chunk) <= 1000:
-                final_chunks.append(chunk)
+            if len(chunk) < 1000:
+                new_chunks.append(chunk)
                 continue
-                
-            # Try to split by structural markers (ordered by priority)
-            split_points = []
+            # Find all matches of numbered items (e.g., "\n3. " or "\n3.\n")
+            number_pattern = r'\n(\d+)\.\s*\n?'
+            matches = list(re.finditer(number_pattern, chunk))
             
-            # 1. Look for numbered points (1., 2., etc.) with whitespace
-            numbered_points = re.finditer(r'\n\s*\d+\.\s', chunk)
-            for match in numbered_points:
-                split_points.append(match.start())
-            
-            # 2. Look for section headers (Introduction, Judgment, Conclusion)
-            section_headers = re.finditer(r'\n\s*(Introduction|Judgment|Conclusion)\s*\n', chunk, re.IGNORECASE)
-            for match in section_headers:
-                split_points.append(match.start())
-            
-            # Sort split points and add end of text
-            split_points = sorted(list(set(split_points)))  # Remove duplicates and sort
-            split_points.append(len(chunk))  # Add end of text as final split point
-            
-            # Create sub-chunks using the split points
-            prev_split = 0
-            for split in split_points:
-                if split - prev_split > 1000 or split == split_points[-1]:
-                    sub_chunk = chunk[prev_split:split].strip()
-                    if sub_chunk:  # Only add non-empty chunks
-                        # If still too big, split by nearest newline to 1000 chars
-                        if len(sub_chunk) > 1000:
-                            optimal_split = prev_split + 1000
-                            # Find nearest newline before optimal split
-                            newline_pos = chunk.rfind('\n', prev_split, optimal_split)
-                            if newline_pos != -1:
-                                final_chunks.append(chunk[prev_split:newline_pos].strip())
-                                prev_split = newline_pos + 1
-                                continue
-                        final_chunks.append(sub_chunk)
-                    prev_split = split
+            # Filter valid sequential numbers (1, 2, 3, ...)
+            valid_starts = []
+            expected_num = 1
+            for match in matches:
+                current_num = int(match.group(1))
+                if current_num == expected_num:
+                    valid_starts.append(match.start())
+                    expected_num += 1
+
+            # Extract chunks between valid numbers
+            prev_end = 0
+            for start in valid_starts:
+                chunk1 = chunk[prev_end:start].strip()
+                if chunk1:
+                    new_chunks.append(chunk1)
+                prev_end = start
+            # Add the remaining text after the last number
+            if prev_end < len(chunk):
+                new_chunks.append(chunk[prev_end:].strip())
         
-        return final_chunks
+        #if any chunk is still larger than 1000 characters, split it further
+        final_chunks = []
+        for chunk in new_chunks:
+            if len(chunk) < 1000:
+                final_chunks.append(chunk)
+            else:
+                # Split the chunk into smaller parts of max 1000 characters
+                for i in range(0, len(chunk), 1000):
+                    final_chunks.append(chunk[i:i + 1000])
+        return final_chunks 
 
 
     def get_file_text(self, path):
@@ -135,9 +132,21 @@ if __name__ == "__main__":
     chunker = Chunker("fixed_size")
     files = chunker.file_paths
     print(len(chunker.file_paths))
+
     #choose rnadom file from file_paths  list
-    pc = Pinecone(api_key="API KEY HERE")
-    index = pc.Index(host="https://ragproject-.......")
+    random_file = random.choice(files)
+    print(f"Randomly selected file: {random_file}")
+    metadata, data = chunker.get_file_text(random_file)
+    # output metadata and chunks to output.txt
+    with open("output.txt", "w", encoding="utf-8") as f:
+        f.write(f"Metadata: {metadata}\n")
+        f.write("Chunks:\n")
+        for chunk in data:
+            print('Chunk length:', len(chunk))  
+            f.write(chunk + "\n\n\n\n\n\n\n\n\n\n")
+
+    """pc = Pinecone(api_key="pcsk_3YbV67_G3gZeawEgTBxZr28MfvtG1DUcgeoqVHjZshkLbyxpcigKizCTsKHMNCLZyd9dhC")
+    index = pc.Index(host="https://ragproject-kjuem0t.svc.aped-4627-b74a.pinecone.io")
     for i, file in enumerate(files): 
         print(file)
         id1 = "file" + str(i+1)
@@ -160,5 +169,5 @@ if __name__ == "__main__":
                 "uri": metadata.get("uri", ""),
                 }]
             )
-        breakpoint()
+        breakpoint()"""
         
